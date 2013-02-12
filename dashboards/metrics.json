@@ -1,0 +1,21 @@
+{
+    "id"       : "metrics",
+    "headline" : "Metrics",
+    "subhead"  : "dashboard",
+    "tabs": [
+        {
+            "name": "Registration",
+            "graph_ids": [
+                "registrations_daily",
+                "registrations_hourly",
+                "registrations_daily_live",
+                "registrations_daily_live_percent"
+            ]
+        }, {
+            "name": "Edits",
+            "graph_ids": [
+                "revisions_tagged"
+            ]
+        }
+    ]
+}

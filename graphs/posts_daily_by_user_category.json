@@ -1,0 +1,89 @@
+{
+    "graph_version": "0.6.0",
+    "id": "posts_daily_by_user_category",
+    "slug": "posts_daily_by_user_category",
+    "name": "Unique daily posts processed by user category",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "label": "",
+                "options": {
+                    "dateFormat": "YYYY-MM-DD"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "smooth",
+                "factor": 1
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "category20",
+                    "stroke": {
+                        "width": 1
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_by_user_category",
+                            "source_col": 1,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "anonymous"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_by_user_category",
+                            "source_col": 2,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "registered"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "height": 350,
+        "scaling": "linear"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "graph_version": "0.6.0",
+    "id": "moodbar_posts_daily_by_editor_class",
+    "slug": "moodbar_posts_daily_by_editor_class",
+    "name": "Daily posts by editor class",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "label": "",
+                "options": {
+                    "dateFormat": "YYYY-MM-DD"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "smooth",
+                "factor": 1
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "category20",
+                    "stroke": {
+                        "width": 1
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_posts_daily_by_editor_class",
+                            "source_col": 1,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "no edit"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_posts_daily_by_editor_class",
+                            "source_col": 2,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "1 edit"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_posts_daily_by_editor_class",
+                            "source_col": 3,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "2-9 edits"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_posts_daily_by_editor_class",
+                            "source_col": 4,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "10-49 edits"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_posts_daily_by_editor_class",
+                            "source_col": 5,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "50+ edits"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "height": 350,
+        "scaling": "linear"
+    }
+}

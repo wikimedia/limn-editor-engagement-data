@@ -1,0 +1,100 @@
+{
+    "graph_version": "0.6.0",
+    "id": "moodbar_moderation_responses_daily_by_mood",
+    "slug": "moodbar_moderation_responses_daily_by_mood",
+    "name": "Daily volume of responses (by mood type)",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "label": "",
+                "options": {
+                    "dateFormat": "YYYY-MM-DD"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "smooth",
+                "factor": 1
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "category20",
+                    "stroke": {
+                        "width": 1
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_moderation_responses_daily_by_mood",
+                            "source_col": 1,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "happy"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_moderation_responses_daily_by_mood",
+                            "source_col": 2,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "sad"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "moodbar_moderation_responses_daily_by_mood",
+                            "source_col": 3,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "confused"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "height": 350,
+        "scaling": "linear"
+    }
+}

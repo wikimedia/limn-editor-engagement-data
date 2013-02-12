@@ -1,0 +1,12 @@
+id: registrations_daily
+name: New Accounts Per Day
+shortName : New Accounts Per Day
+format: csv
+type: timeseries
+url: http://toolserver.org/~dartar/reg2/reg3_daily.csv
+
+columns:
+    - label: datetime
+      type: date
+    - label: new accounts
+      type: int

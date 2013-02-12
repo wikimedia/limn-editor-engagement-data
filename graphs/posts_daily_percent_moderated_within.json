@@ -1,0 +1,122 @@
+{
+    "graph_version": "0.6.0",
+    "id": "posts_daily_percent_moderated_within",
+    "slug": "posts_daily_percent_moderated_within",
+    "name": "Proportion of daily posts moderated (%)",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "label": "",
+                "options": {
+                    "dateFormat": "YYYY-MM-DD"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "smooth",
+                "factor": 1
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "category20",
+                    "stroke": {
+                        "width": 1
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_percent_moderated_within",
+                            "source_col": 1,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "1 day"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_percent_moderated_within",
+                            "source_col": 2,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "1 week"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_percent_moderated_within",
+                            "source_col": 3,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "2 weeks"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_percent_moderated_within",
+                            "source_col": 4,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "1 month"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "posts_daily_percent_moderated_within",
+                            "source_col": 5,
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "to date"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "height": 350,
+        "scaling": "linear"
+    }
+}
