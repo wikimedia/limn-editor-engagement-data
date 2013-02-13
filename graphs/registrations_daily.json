@@ -2,7 +2,7 @@
     "graph_version": "0.6.0",
     "id": "registrations_daily",
     "slug": "registrations_daily",
-    "name": "",
+    "name": "New accounts per day",
     "desc": "",
     "notes": "",
     "root": {

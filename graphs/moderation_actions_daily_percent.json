@@ -46,7 +46,7 @@
             },
             {
                 "nodeType": "smooth",
-                "factor": 1
+                "factor": 7
             },
             {
                 "nodeType": "line-group",
