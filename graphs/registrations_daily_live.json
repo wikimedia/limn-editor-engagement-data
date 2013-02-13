@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
-    "id": "registered_daily_live",
-    "slug": "registered_daily_live",
+    "id": "registrations_daily_live",
+    "slug": "registrations_daily_live",
     "name": "Live accounts",
     "desc": "",
     "notes": "",
@@ -60,7 +60,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "registered_daily_live",
+                            "source_id": "registrations_daily_live",
                             "source_col": 1,
                             "type": "Number"
                         },
@@ -71,7 +71,7 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "registered_daily_live",
+                            "source_id": "registrations_daily_live",
                             "source_col": 2,
                             "type": "Number"
                         },

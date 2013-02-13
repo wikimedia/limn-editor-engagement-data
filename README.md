@@ -1,23 +1,25 @@
-# Limn Data &mdash; Example
+# Limn &mdash; Editor Engagement Data
 
-[Limn][limn] is a GUI Visualization Toolkit.  This repository is an example of the data [Limn][limn] can currently understand and visualize.
+[Limn][limn] is a GUI Visualization Toolkit.  This repository is a port of a set of [toolserver dashboards][dario_dashboards].
 
 
 ## Using with Limn
 
  * Install [Limn][limn]
- * Link [Limn][limn] to [Limn Data][limn_data]
+ * Link [Limn][limn] to [Limn Editor Engagement Data][limn_editor_engagement]
 
 ```
 cd /path/to/limn/../
-clone git@github.com:wikimedia/limn-data.git
+clone git@github.com:wikimedia/limn-editor-engagement.git
 cd /path/to/limn
-coke --data ../../../../limn-data --to example link_data
+coke --data ../../../../limn-editor-engagement --to eee link_data
 npm start
 ```
 
- * Browse [A Sample Dashboard][sample_dashboard]
+ * Browse the [Metrics Dashboard][metrics_dashboard] or the [Features Dashboard][features_dashboard]
 
-[limn_data]: https://github.com/wikimedia/limn-data "Limn Data on GitHub"
+[limn_editor_engagement]: https://github.com/wikimedia/limn-editor-engagement "Limn Editor Engagement Data on GitHub"
 [limn]: https://github.com/wikimedia/limn "Limn on GitHub"
-[sample_dashboard]: http://localhost:8081/dashboards/sample
+[dario_dashboards]: http://toolserver.org/~dartar/
+[metrics_dashboard]: http://localhost:8081/dashboards/metrics
+[features_dashboard]: http://localhost:8081/dashboards/features
