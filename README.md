@@ -12,7 +12,7 @@
 cd /path/to/limn/../
 clone git@github.com:wikimedia/limn-editor-engagement.git
 cd /path/to/limn
-coke --data ../../../../limn-editor-engagement --to eee link_data
+coke --vardir ./var --data ../../../../limn-editor-engagement --to eee link_data
 npm start
 ```
 
