@@ -52,7 +52,7 @@
                 "nodeType": "line-group",
                 "options": {
                     "shape": "area",
-                    "palette": "category20",
+                    "palette": "category10",
                     "stroke": {
                         "width": 1
                     }
