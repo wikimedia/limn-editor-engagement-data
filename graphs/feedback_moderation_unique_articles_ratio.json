@@ -1,4 +1,4 @@
-{
+8
     "graph_version": "0.6.0",
     "id": "feedback_moderation_unique_articles_ratio",
     "slug": "feedback_moderation_unique_articles_ratio",
@@ -45,8 +45,13 @@
                 "nodeType": "zoom-brush"
             },
             {
-                "nodeType": "smooth",
-                "factor": 1
+                "nodeType": "tweaks",
+                "children": [
+                    {
+                        "nodeType": "smooth",
+                        "factor": 1
+                    }
+                ]
             },
             {
                 "nodeType": "line-group",

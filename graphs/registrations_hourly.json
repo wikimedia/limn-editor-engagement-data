@@ -45,8 +45,13 @@
                 "nodeType": "zoom-brush"
             },
             {
-                "nodeType": "smooth",
-                "factor": 24
+                "nodeType": "tweaks",
+                "children": [
+                    {
+                        "nodeType": "smooth",
+                        "factor": 24
+                    }
+                ]
             },
             {
                 "nodeType": "line-group",
