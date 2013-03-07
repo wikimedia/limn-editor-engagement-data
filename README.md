@@ -10,15 +10,15 @@
 
 ```
 cd /path/to/limn/../
-clone git@github.com:wikimedia/limn-editor-engagement.git
+clone git@github.com:wikimedia/limn-editor-engagement-data.git
 cd /path/to/limn
-coke --vardir ./var --data ../../../../limn-editor-engagement --to eee link_data
+coke --vardir ./var --data ../../../../limn-editor-engagement-data --to eee link_data
 npm start
 ```
 
  * Browse the [Metrics Dashboard][metrics_dashboard] or the [Features Dashboard][features_dashboard]
 
-[limn_editor_engagement]: https://github.com/wikimedia/limn-editor-engagement "Limn Editor Engagement Data on GitHub"
+[limn_editor_engagement]: https://github.com/wikimedia/limn-editor-engagement-data "Limn Editor Engagement Data on GitHub"
 [limn]: https://github.com/wikimedia/limn "Limn on GitHub"
 [dario_dashboards]: http://toolserver.org/~dartar/
 [metrics_dashboard]: http://localhost:8081/dashboards/metrics
