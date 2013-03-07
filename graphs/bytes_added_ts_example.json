@@ -1,0 +1,123 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "bytes_added_ts_example",
+    "id": "bytes_added_ts_example",
+    "name": "Bytes Added User Metrics Example",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "width": 900,
+        "height": 350,
+        "y": {
+            "scaleType": "linear"
+        },
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "label": "Legend",
+                "options": {
+                    "dateFormat": "MMM DD, YYYY"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "tweaks",
+                "children": [
+                    {
+                        "nodeType": "smooth",
+                        "disabled": false,
+                        "factor": 1
+                    },
+                    {
+                        "nodeType": "scaling",
+                        "disabled": false,
+                        "factor": 1
+                    }
+                ]
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "category10"
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "bytes_added_timeseries_example",
+                            "source_col": 1
+                        },
+                        "options": {
+                            "label": "Net"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "bytes_added_timeseries_example",
+                            "source_col": 2
+                        },
+                        "options": {
+                            "label": "Absolute"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "bytes_added_timeseries_example",
+                            "source_col": 3
+                        },
+                        "options": {
+                            "label": "Positive"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "bytes_added_timeseries_example",
+                            "source_col": 4
+                        },
+                        "options": {
+                            "label": "Negative"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
