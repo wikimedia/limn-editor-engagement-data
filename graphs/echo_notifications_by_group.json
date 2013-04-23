@@ -67,7 +67,7 @@
                 "nodeType": "legend",
                 "disabled": false,
                 "options": {
-                    "dateFormat": "HH:mm on MMM DD, YYYY",
+                    "dateFormat": "MMM DD, YYYY",
                     "valueFormat": ",.2s"
                 }
             },
@@ -123,7 +123,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "positive"
                         }
                     },
                     {
@@ -137,7 +138,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "interactive"
                         }
                     },
                     {
@@ -151,7 +153,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "neutral"
                         }
                     },
                     {
@@ -165,7 +168,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "negative"
                         }
                     },
                     {
@@ -179,7 +183,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "system"
                         }
                     }
                 ]

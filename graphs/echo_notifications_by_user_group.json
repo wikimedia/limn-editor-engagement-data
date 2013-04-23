@@ -66,9 +66,8 @@
             {
                 "nodeType": "legend",
                 "disabled": false,
-                "label": "00:00 on Mar 17, 2013",
                 "options": {
-                    "dateFormat": "HH:mm on MMM DD, YYYY",
+                    "dateFormat": "MMM DD, YYYY",
                     "valueFormat": ",.2s"
                 }
             },
@@ -124,7 +123,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "new users"
                         }
                     },
                     {
@@ -138,7 +138,8 @@
                         },
                         "options": {
                             "disabled": false,
-                            "noLegend": false
+                            "noLegend": false,
+                            "label": "existing users"
                         }
                     }
                 ]
