@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
     "slug": "echo_notifications_by_user_group",
-    "name": "Foo",
+    "name": "Echo Notifications By User Group",
     "shortName": "",
-    "desc": "Test",
+    "desc": "",
     "notes": "",
     "root": {
         "nodeType": "canvas",
