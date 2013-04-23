@@ -1,0 +1,51 @@
+From 1f4137586612a150ab0147cc13c917fe6c781017 Mon Sep 17 00:00:00 2001
+From: Milimetric <milimetric@i-00000268.pmtpa.wmflabs>
+Date: Tue, 23 Apr 2013 01:22:42 +0000
+Subject: [PATCH] graphs and datasources created by ryan kaldari
+
+---
+ datasources/echo_notifications_by_group.json      |    1 +
+ datasources/echo_notifications_by_user_group.json |    1 +
+ graphs/echo_notifications_by_group.json           |    1 +
+ graphs/echo_notifications_by_user_group.json      |    1 +
+ 4 files changed, 4 insertions(+), 0 deletions(-)
+ create mode 100644 datasources/echo_notifications_by_group.json
+ create mode 100644 datasources/echo_notifications_by_user_group.json
+ create mode 100644 graphs/echo_notifications_by_group.json
+ create mode 100644 graphs/echo_notifications_by_user_group.json
+
+diff --git a/datasources/echo_notifications_by_group.json b/datasources/echo_notifications_by_group.json
+new file mode 100644
+index 0000000..93f7e5e
+--- /dev/null
++++ b/datasources/echo_notifications_by_group.json
+@@ -0,0 +1 @@
++{"slug":"echo_notifications_by_group","format":"csv","type":"timeseries","url":"http://toolserver.org/~dartar/echo/echo_group.csv","name":"Echo Notifications By Group","shortName":"","desc":"","notes":"","columns":[{"id":"date","label":"date","type":"Date","index":0,"metricDefs":[]},{"id":"positive","label":"positive","type":"Number","index":1,"metricDefs":[]},{"id":"interactive","label":"interactive","type":"Number","index":2,"metricDefs":[]},{"id":"neutral","label":"neutral","type":"Number","index":3,"metricDefs":[]},{"id":"negative","label":"negative","type":"Number","index":4,"metricDefs":[]},{"id":"system","label":"system","type":"Number","index":5,"metricDefs":[]}],"id":"echo_notifications_by_group"}
+\ No newline at end of file
+diff --git a/datasources/echo_notifications_by_user_group.json b/datasources/echo_notifications_by_user_group.json
+new file mode 100644
+index 0000000..99245bf
+--- /dev/null
++++ b/datasources/echo_notifications_by_user_group.json
+@@ -0,0 +1 @@
++{"slug":"echo_notifications_by_user_group","format":"csv","type":"timeseries","url":"http://toolserver.org/~kaldari/echo/echo_user.csv","name":"Echo Notifications by User Group","shortName":"","desc":"","notes":"","columns":[{"id":"date","label":"date","type":"Date","index":0,"metricDefs":[]},{"id":"new_users","label":"new users","type":"Number","index":1,"metricDefs":[]},{"id":"existing_users","label":"existing users","type":"Number","index":2,"metricDefs":[]}],"id":"echo_notifications_by_user_group"}
+\ No newline at end of file
+diff --git a/graphs/echo_notifications_by_group.json b/graphs/echo_notifications_by_group.json
+new file mode 100644
+index 0000000..e283d0d
+--- /dev/null
++++ b/graphs/echo_notifications_by_group.json
+@@ -0,0 +1 @@
++{"graph_version":"0.6.0","slug":"echo_notifications_by_group","name":"Echo Notifications By Group","shortName":"","desc":"","notes":"","root":{"nodeType":"canvas","disabled":false,"children":[{"nodeType":"axis","disabled":false,"options":{"tickFormat":"MMM YY","labelSize":10,"labelColor":"#666666","stroke":{"width":2,"color":"#CACACA"},"dimension":"x","orient":"bottom"}},{"nodeType":"axis","disabled":false,"options":{"tickFormat":"MMM YY","labelSize":10,"labelColor":"#666666","stroke":{"width":2,"color":"#CACACA"},"dimension":"y","orient":"left"}},{"nodeType":"grid","disabled":false,"options":{"ticks":10,"stroke":{"width":1,"color":"#CACACA"},"dimension":"x"}},{"nodeType":"grid","disabled":false,"options":{"ticks":10,"stroke":{"width":1,"color":"#CACACA"},"dimension":"y"}},{"nodeType":"legend","disabled":false,"options":{"dateFormat":"HH:mm on MMM DD, YYYY","valueFormat":",.2s"}},{"nodeType":"zoom-brush","disabled":false,"options":{"zoom":{"allow":"both"}}},{"nodeType":"line-group","disabled":false,"options":{"palette":"category10","stack":{"enabled":false,"offset":"zero","order":"default"},"bands":{"padding":0.2},"dateFormat":"MMM YYYY","valueFormat":",.2s","stroke":{"width":3,"pattern":"solid","opacity":1},"hoverPoints":{"enabled":true,"radius":5,"fillOpacity":1,"stroke":{"width":0,"pattern":"solid","opacity":1}}},"children":[{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_group","source_col":1,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}},{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_group","source_col":2,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}},{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_group","source_col":3,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}},{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_group","source_col":4,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}},{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_group","source_col":5,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}}]}],"width":900,"minWidth":750,"height":350,"minHeight":500,"x":{"padding":0},"y":{"scaleType":"linear","padding":0.1}},"id":"echo_notifications_by_group"}
+\ No newline at end of file
+diff --git a/graphs/echo_notifications_by_user_group.json b/graphs/echo_notifications_by_user_group.json
+new file mode 100644
+index 0000000..8eae608
+--- /dev/null
++++ b/graphs/echo_notifications_by_user_group.json
+@@ -0,0 +1 @@
++{"graph_version":"0.6.0","slug":"echo_notifications_by_user_group","name":"Foo","shortName":"","desc":"Test","notes":"","root":{"nodeType":"canvas","disabled":false,"children":[{"nodeType":"axis","disabled":false,"options":{"tickFormat":"MMM YY","labelSize":10,"labelColor":"#666666","stroke":{"width":2,"color":"#CACACA"},"dimension":"x","orient":"bottom"}},{"nodeType":"axis","disabled":false,"options":{"tickFormat":"MMM YY","labelSize":10,"labelColor":"#666666","stroke":{"width":2,"color":"#CACACA"},"dimension":"y","orient":"left"}},{"nodeType":"grid","disabled":false,"options":{"ticks":10,"stroke":{"width":1,"color":"#CACACA"},"dimension":"x"}},{"nodeType":"grid","disabled":false,"options":{"ticks":10,"stroke":{"width":1,"color":"#CACACA"},"dimension":"y"}},{"nodeType":"legend","disabled":false,"label":"00:00 on Mar 17, 2013","options":{"dateFormat":"HH:mm on MMM DD, YYYY","valueFormat":",.2s"}},{"nodeType":"zoom-brush","disabled":false,"options":{"zoom":{"allow":"both"}}},{"nodeType":"line-group","disabled":false,"options":{"palette":"category10","stack":{"enabled":false,"offset":"zero","order":"default"},"bands":{"padding":0.2},"dateFormat":"MMM YYYY","valueFormat":",.2s","stroke":{"width":3,"pattern":"solid","opacity":1},"hoverPoints":{"enabled":true,"radius":5,"fillOpacity":1,"stroke":{"width":0,"pattern":"solid","opacity":1}}},"children":[{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_user_group","source_col":1,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}},{"nodeType":"line","disabled":false,"metric":{"source_id":"echo_notifications_by_user_group","source_col":2,"xColumn":0,"type":"Number"},"options":{"disabled":false,"noLegend":false}}]}],"width":900,"minWidth":750,"height":350,"minHeight":500,"x":{"padding":0},"y":{"scaleType":"linear","padding":0.1}},"id":"echo_notifications_by_user_group"}
+\ No newline at end of file
+-- 
+1.7.0.4
+
