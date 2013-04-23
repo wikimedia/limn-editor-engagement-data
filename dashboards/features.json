@@ -71,7 +71,7 @@
             "name": "Notifications",
             "graph_ids": [
                 "echo_notifications_by_group",
-                ""
+                "echo_notifications_by_user_group"
             ]
         }
     ]
