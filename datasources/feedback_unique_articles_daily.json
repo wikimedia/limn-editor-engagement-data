@@ -1,1 +1,0 @@
-{"slug":"feedback_unique_articles_daily","format":"csv","type":"timeseries","url":"http://toolserver.org/~dartar/aft5/aft5_daily_unique_articles.csv","name":"Daily number of unique articles commented","shortName":"","desc":"","notes":"","columns":[{"label":"date","type":"Date","index":0},{"label":"unique articles","type":"Number","index":1}],"id":"feedback_unique_articles_daily"}

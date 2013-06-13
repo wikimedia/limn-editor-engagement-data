@@ -1,1 +1,0 @@
-{"slug":"wikilove_posts_daily","format":"csv","type":"timeseries","url":"http://toolserver.org/~dartar/wikilove/d.csv","name":"Unique daily messages","shortName":"","desc":"","notes":"","columns":[{"label":"date","type":"Date","index":0},{"label":"all posts","type":"Number","index":1},{"label":"self-directed posts","type":"Number","index":2}],"id":"wikilove_posts_daily"}

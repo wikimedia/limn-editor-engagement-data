@@ -1,1 +1,0 @@
-{"slug":"moodbar_average_response_time","format":"csv","type":"timeseries","url":"http://toolserver.org/~dartar/fd/fd_rt.csv","name":"Average response time (minutes)","shortName":"","desc":"","notes":"","columns":[{"label":"date","type":"Date","index":0},{"label":" average response time","type":"Number","index":1}],"id":"moodbar_average_response_time"}

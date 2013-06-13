@@ -1,0 +1,44 @@
+{
+    "id"       : "enwiki-features",
+    "headline" : "English Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "enwiki_echo_all",
+                "enwiki_echo_all_cum",
+		"enwiki_echo_category",
+		"enwiki_echo_category_perc",
+		"enwiki_echo_category_cum",
+		"enwiki_echo_user"
+            ]
+        },
+       {
+            "name": "Article feedback",
+            "graph_ids": 
+            [
+                "enwiki_aft5_daily",
+                "enwiki_aft5_cum",
+                "enwiki_aft5_daily_unique_articles",
+                "enwiki_aft5_daily_by_usertype",
+                "enwiki_aft5_daily_by_usertype_perc"
+            ]
+        },
+       {
+            "name": "Article feedback moderation",
+            "graph_ids": 
+            [
+                "enwiki_fp_logging",
+                "enwiki_fp_logging_perc",
+                "enwiki_fp_logging_cum",
+                "enwiki_fp_logging_cum_perc",
+                "enwiki_fp_logging_by_article_unique",
+                "enwiki_fp_logging_daily_article_moderation_perc",
+                "enwiki_fp_logging_by_user_type_unique",
+                "enwiki_fp_logging_by_user_type"
+            ]
+        }
+    ]
+}
