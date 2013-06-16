@@ -1,0 +1,21 @@
+{
+    "id": "metrics",
+    "headline": "English Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "enwiki_daily_reg",
+                "enwiki_hourly_reg_y2y",
+                "enwiki_daily_reg_mobile"
+            ]
+        },
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "enwiki_revtags"
+            ]
+        }
+    ]
+}
