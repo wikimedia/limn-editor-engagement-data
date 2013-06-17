@@ -1,0 +1,216 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_pc_logging_actions_cum",
+    "name": "Cumulative pages reviewed",
+    "shortName": "",
+    "desc": "Cumulative number of pages reviewed via Page Curation, by curation action. As of 09/20/12, any curation action automatically marks a page as reviewed (autoreviewed).",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_pc_logging_actions_cum",
+                            "source_col": "tag",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_pc_logging_actions_cum",
+                            "yColumn": "tag",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "tag"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_pc_logging_actions_cum",
+                            "source_col": "delete",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_pc_logging_actions_cum",
+                            "yColumn": "delete",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "delete"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_pc_logging_actions_cum",
+                            "source_col": "reviewed",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_pc_logging_actions_cum",
+                            "yColumn": "reviewed",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "reviewed"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_pc_logging_actions_cum",
+                            "source_col": "unreviewed",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_pc_logging_actions_cum",
+                            "yColumn": "unreviewed",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "unreviewed"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_pc_logging_actions_cum",
+                            "source_col": "autoreviewed",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_pc_logging_actions_cum",
+                            "yColumn": "autoreviewed",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "autoreviewed"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_pc_logging_actions_cum"
+}

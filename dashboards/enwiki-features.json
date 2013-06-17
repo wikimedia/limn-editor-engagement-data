@@ -39,6 +39,21 @@
                 "enwiki_fp_logging_by_user_type_unique",
                 "enwiki_fp_logging_by_user_type"
             ]
+        },
+        {
+            "name": "Page curation",
+            "graph_ids": 
+            [
+                "enwiki_pc_logging_actions_daily",
+                "enwiki_pc_logging_actions_daily_perc",
+                "enwiki_pc_logging_actions_cum",
+                "enwiki_pc_logging_actions_cum_perc",
+                "enwiki_pc_logging_users_actions_daily",
+                "enwiki_pc_logging_actions_daily_comp",
+                "enwiki_pc_logging_actions_daily_comp_perc",
+                "enwiki_pc_logging_users_actions_daily_comp",
+                "enwiki_pc_logging_users_actions_daily_comp_perc"
+            ]
         }
     ]
 }
