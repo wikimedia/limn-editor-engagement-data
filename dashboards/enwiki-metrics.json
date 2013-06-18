@@ -16,6 +16,12 @@
             "graph_ids": [
                 "enwiki_revtags"
             ]
+        },
+        {
+            "name": "Reverts",
+            "graph_ids": [
+                "enwiki_ve_reverts"
+            ]
         }
     ]
 }
