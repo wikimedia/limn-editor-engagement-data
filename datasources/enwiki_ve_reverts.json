@@ -1,0 +1,19 @@
+{
+    "slug": "enwiki_ve_reverts",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/ve/reverts.tsv",
+    "name": "[enwiki] Reverted edits by reverting agent type",
+    "shortName": "enwiki_ve_reverts",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {"id":"date","label":"timestamp","type":"Date","index":0,"metricDefs":[]},
+        {"id":"0_self","label":"0_self","type":"Number","index":1,"metricDefs":[]},
+        {"id":"0_manual","label":"0_manual","type":"Number","index":2,"metricDefs":[]},
+        {"id":"0_tool-assisted","label":"0_tool-assisted","type":"Number","index":3,"metricDefs":[]},
+        {"id":"0_vandal-bot","label":"0_vandal-bot","type":"Number","index":4,"metricDefs":[]},
+        {"id":"0_other-bot","label":"0_other-bot","type":"Number","index":5,"metricDefs":[]}
+    ],
+    "id": "enwiki_ve_reverts"
+}

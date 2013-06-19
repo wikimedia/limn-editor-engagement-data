@@ -1,8 +1,8 @@
 {
     "graph_version": "0.6.0",
-    "id": "enwiki_revtags",
-    "slug": "enwiki_revtags",
-    "name": "Tagged revisions",
+    "id": "enwiki_ve_reverts",
+    "slug": "enwiki_ve_reverts",
+    "name": "Reverted revisions (Main namespace) by type",
     "shortName": "",
     "desc": "",
     "notes": "",
@@ -118,16 +118,16 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_revtags",
-                            "source_col": "getting_started",
+                            "source_id": "enwiki_ve_reverts",
+                            "source_col": "0_self",
                             "xColumn": 0,
-                            "sourceId": "enwiki_revtags",
-                            "yColumn": "getting_started",
+                            "sourceId": "enwiki_ve_reverts",
+                            "yColumn": "0_self",
                             "type": "Number"
                         },
                         "options": {
                             "disabled": false,
-                            "label": "getting started",
+                            "label": "self",
                             "noLegend": false
                         }
                     },
@@ -135,16 +135,16 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_revtags",
-                            "source_col": "visual_editor",
+                            "source_id": "enwiki_ve_reverts",
+                            "source_col": "0_manual",
                             "xColumn": 0,
-                            "sourceId": "enwiki_revtags",
-                            "yColumn": "visual_editor",
+                            "sourceId": "enwiki_ve_reverts",
+                            "yColumn": "0_manual",
                             "type": "Number"
                         },
                         "options": {
                             "disabled": false,
-                            "label": "visual editor",
+                            "label": "manual",
                             "noLegend": false
                         }
                     },
@@ -152,16 +152,50 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_revtags",
-                            "source_col": "mobile_edit",
+                            "source_id": "enwiki_ve_reverts",
+                            "source_col": "0_tool-assisted",
                             "xColumn": 0,
-                            "sourceId": "enwiki_revtags",
-                            "yColumn": "mobile_edit",
+                            "sourceId": "enwiki_ve_reverts",
+                            "yColumn": "0_tool-assisted",
                             "type": "Number"
                         },
                         "options": {
                             "disabled": false,
-                            "label": "mobile",
+                            "label": "tool-assisted",
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_reverts",
+                            "source_col": "0_vandal-bot",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_reverts",
+                            "yColumn": "0_vandal-bot",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "label": "counter-vandal bot",
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_reverts",
+                            "source_col": "0_other-bot",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_reverts",
+                            "yColumn": "0_other-bot",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "label": "other bot",
                             "noLegend": false
                         }
                     }
