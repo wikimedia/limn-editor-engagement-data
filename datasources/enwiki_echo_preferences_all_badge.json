@@ -1,0 +1,34 @@
+{
+    "slug": "enwiki_echo_preferences_all_badge",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_preferences_all_badge.csv",
+    "name": "[enwiki] Web preferences by type (total user overview)",
+    "shortName": "enwiki_echo_preferences_all_badge",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "enabled",
+            "label": "Badge enabled",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "disabled",
+            "label": "Badge disabled",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_preferences_all_badge"
+}

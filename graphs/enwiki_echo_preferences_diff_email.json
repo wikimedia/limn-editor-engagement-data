@@ -1,0 +1,335 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_echo_preferences_diff_email",
+    "name": "Email preferences by category (daily changes)",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "enable-edit-user-talk",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "enable-edit-user-talk",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Talk message (enabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "enable-edit-thank",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "enable-edit-thank",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Thanks (enabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "enable-mention",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "enable-mention",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Mention (enabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "enable-article-linked",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "enable-article-linked",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Page link (enabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "enable-page-review",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "enable-page-review",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Page review (enabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "enable-reverted",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "enable-reverted",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Edit revert (enabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "disable-edit-user-talk",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "disable-edit-user-talk",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Talk message (disabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "disable-edit-thank",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "disable-edit-thank",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Thanks (disabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "disable-mention",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "disable-mention",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Mention (disabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "disable-article-linked",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "disable-article-linked",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Page link (disabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "disable-page-review",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "disable-page-review",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Page review (disabled)"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email",
+                            "source_col": "disable-reverted",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email",
+                            "yColumn": "disable-reverted",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Edit revert (disabled)"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_echo_preferences_diff_email"
+}
