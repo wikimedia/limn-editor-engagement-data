@@ -1,0 +1,62 @@
+{
+    "slug": "enwiki_echo_preferences_all_email",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_preferences_all_email.csv",
+    "name": "[enwiki] Email preferences by category (total user overview)",
+    "shortName": "enwiki_echo_preferences_all_email",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "edit-user-talk",
+            "label": "Talk message",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "edit-thank",
+            "label": "Thanks",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "mention",
+            "label": "Mention",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "article-linked",
+            "label": "Page link",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        },
+        {
+            "id": "page-review",
+            "label": "Page review",
+            "type": "Number",
+            "index": 5,
+            "metricDefs": []
+        },
+        {
+            "id": "reverted",
+            "label": "Edit revert",
+            "type": "Number",
+            "index": 6,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_preferences_all_email"
+}

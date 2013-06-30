@@ -1,0 +1,34 @@
+{
+    "slug": "enwiki_echo_clicks_by_usertype",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_clicks_by_user_type.csv",
+    "name": "[enwiki] Clicks by user type",
+    "shortName": "enwiki_echo_clicks_by_usertype",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "newbie",
+            "label": "New users",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "existing",
+            "label": "Current users",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_clicks_by_usertype"
+}

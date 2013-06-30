@@ -1,0 +1,83 @@
+{
+    "slug": "enwiki_echo_views_by_category",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_views_by_category.csv",
+    "name": "[enwiki] Views by category",
+    "shortName": "enwiki_echo_views_by_category",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "edit-user-talk",
+            "label": "Talk message",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "edit-thank",
+            "label": "Thanks",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "mention",
+            "label": "Mention",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "page-linked",
+            "label": "Page link",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        },
+        {
+            "id": "pagetriage-mark-as-reviewed",
+            "label": "Page review",
+            "type": "Number",
+            "index": 5,
+            "metricDefs": []
+        },
+        {
+            "id": "reverted",
+            "label": "Edit revert",
+            "type": "Number",
+            "index": 6,
+            "metricDefs": []
+        },
+        {
+            "id": "welcome",
+            "label": "Welcome",
+            "type": "Number",
+            "index": 7,
+            "metricDefs": []
+        },
+        {
+            "id": "gettingstarted-start-editing",
+            "label": "Get started",
+            "type": "Number",
+            "index": 8,
+            "metricDefs": []
+        },
+        {
+            "id": "user-rights",
+            "label": "User rights",
+            "type": "Number",
+            "index": 9,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_views_by_category"
+}

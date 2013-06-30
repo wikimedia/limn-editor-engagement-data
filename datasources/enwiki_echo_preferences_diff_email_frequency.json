@@ -1,0 +1,48 @@
+{
+    "slug": "enwiki_echo_preferences_diff_email_frequency",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_preferences_diff_email_frequency.csv",
+    "name": "[enwiki] Email preferences by frequency (daily changes)",
+    "shortName": "enwiki_echo_preferences_diff_email_frequency",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "never",
+            "label": "No email notifications",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "immediately",
+            "label": "Individual notifications",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "daily",
+            "label": "Daily digest",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "weekly",
+            "label": "Weekly digest",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_preferences_diff_email_frequency"
+}

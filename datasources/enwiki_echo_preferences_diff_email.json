@@ -1,0 +1,104 @@
+{
+    "slug": "enwiki_echo_preferences_diff_email",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_preferences_diff_email.csv",
+    "name": "[enwiki] Email preferences by category (daily changes)",
+    "shortName": "enwiki_echo_preferences_diff_email",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "enable-edit-user-talk",
+            "label": "Talk message (enabled)",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "enable-edit-thank",
+            "label": "Thanks (enabled)",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "enable-mention",
+            "label": "Mention (enabled)",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "enable-article-linked",
+            "label": "Page link (enabled)",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        },
+        {
+            "id": "enable-page-review",
+            "label": "Page review (enabled)",
+            "type": "Number",
+            "index": 5,
+            "metricDefs": []
+        },
+        {
+            "id": "enable-reverted",
+            "label": "Edit revert (enabled)",
+            "type": "Number",
+            "index": 6,
+            "metricDefs": []
+        },
+        {
+            "id": "disable-edit-user-talk",
+            "label": "Talk message (disabled)",
+            "type": "Number",
+            "index": 7,
+            "metricDefs": []
+        },
+        {
+            "id": "disable-edit-thank",
+            "label": "Thanks (disabled)",
+            "type": "Number",
+            "index": 8,
+            "metricDefs": []
+        },
+        {
+            "id": "disable-mention",
+            "label": "Mention (disabled)",
+            "type": "Number",
+            "index": 9,
+            "metricDefs": []
+        },
+        {
+            "id": "disable-article-linked",
+            "label": "Page link (disabled)",
+            "type": "Number",
+            "index": 10,
+            "metricDefs": []
+        },
+        {
+            "id": "disable-page-review",
+            "label": "Page review (disabled)",
+            "type": "Number",
+            "index": 11,
+            "metricDefs": []
+        },
+        {
+            "id": "disable-reverted",
+            "label": "Edit revert (disabled)",
+            "type": "Number",
+            "index": 12,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_preferences_diff_email"
+}

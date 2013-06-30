@@ -1,0 +1,284 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_echo_clicks_by_category",
+    "name": "Clicks by category",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "edit-user-talk",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "edit-user-talk",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Talk message"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "edit-thank",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "edit-thank",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Thanks"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "mention",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "mention",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Mention"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "page-linked",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "page-linked",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Page link"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "pagetriage-mark-as-reviewed",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "pagetriage-mark-as-reviewed",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Page review"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "reverted",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "reverted",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Edit revert"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "welcome",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "welcome",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Welcome"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "gettingstarted-start-editing",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "gettingstarted-start-editing",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "Get started"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_clicks_by_category",
+                            "source_col": "user-rights",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_clicks_by_category",
+                            "yColumn": "user-rights",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "User rights"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_echo_clicks_by_category"
+}
