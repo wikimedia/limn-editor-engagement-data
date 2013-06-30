@@ -2,7 +2,7 @@
     "slug": "enwiki_echo_clicks_by_source",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_clicks_by_source.csv",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_clicks_by_source.csv",
     "name": "[enwiki] Clicks by source",
     "shortName": "enwiki_echo_clicks_by_source",
     "desc": "",

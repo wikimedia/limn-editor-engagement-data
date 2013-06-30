@@ -2,7 +2,7 @@
     "slug": "enwiki_echo_preferences_all_email",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_preferences_all_email.csv",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_preferences_all_email.csv",
     "name": "[enwiki] Email preferences by category (total user overview)",
     "shortName": "enwiki_echo_preferences_all_email",
     "desc": "",

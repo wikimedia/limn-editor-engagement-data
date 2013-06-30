@@ -2,7 +2,7 @@
     "slug": "enwiki_echo_views_by_usertype",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_views_by_user_type.csv",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_views_by_user_type.csv",
     "name": "[enwiki] Views by user type",
     "shortName": "enwiki_echo_views_by_usertype",
     "desc": "",

@@ -2,7 +2,7 @@
     "slug": "enwiki_echo_preferences_diff_email_frequency",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_preferences_diff_email_frequency.csv",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_preferences_diff_email_frequency.csv",
     "name": "[enwiki] Email preferences by frequency (daily changes)",
     "shortName": "enwiki_echo_preferences_diff_email_frequency",
     "desc": "",

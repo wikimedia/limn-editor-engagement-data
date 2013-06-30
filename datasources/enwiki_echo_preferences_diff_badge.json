@@ -2,7 +2,7 @@
     "slug": "enwiki_echo_preferences_diff_badge",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_preferences_diff_badge.csv",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_preferences_diff_badge.csv",
     "name": "[enwiki] Web preferences by type (daily changes)",
     "shortName": "enwiki_echo_preferences_diff_badge",
     "desc": "",

@@ -2,7 +2,7 @@
     "slug": "enwiki_echo_clicks_by_usertype",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/echo/echo_clicks_by_user_type.csv",
+    "url": "http://stat1001.wikimedia.org/limn-public-data/ee/datasets/enwiki/echo_clicks_by_user_type.csv",
     "name": "[enwiki] Clicks by user type",
     "shortName": "enwiki_echo_clicks_by_usertype",
     "desc": "",
