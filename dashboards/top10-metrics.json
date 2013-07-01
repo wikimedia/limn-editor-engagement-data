@@ -1,0 +1,15 @@
+{
+    "id": "metrics",
+    "headline": "Top 10 Wikipedias",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "all_daily_reg",
+                "all_daily_reg_mobile",
+                "all_campaigns_anoneditwarning"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,302 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "all_campaigns_anoneditwarning",
+    "name": "New account registrations (anonymous edit CTA)",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "scaling": "log",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "de",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "de",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "de",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "en",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "en",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "en",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "es",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "es",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "es",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "fr",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "fr",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "fr",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "it",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "it",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "it",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "ja",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "ja",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "ja",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "pl",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "pl",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "pl",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "pt",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "pt",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "pt",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "ru",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "ru",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "ru",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "all_campaigns_anoneditwarning",
+                            "source_col": "zh",
+                            "xColumn": 0,
+                            "sourceId": "all_campaigns_anoneditwarning",
+                            "yColumn": "zh",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "zh",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0
+        }
+    },
+    "id": "all_campaigns_anoneditwarning"
+}
