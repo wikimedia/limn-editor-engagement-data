@@ -21,7 +21,8 @@
         {
             "name": "Reverts",
             "graph_ids": [
-                "enwiki_ve_reverts"
+                "enwiki_ve_reverts",
+		"enwiki_cluebotng_edits"
             ]
         }
     ]
