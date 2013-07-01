@@ -7,8 +7,9 @@
             "name": "Registrations",
             "graph_ids": [
                 "enwiki_daily_reg",
-                "enwiki_hourly_reg_y2y",
-                "enwiki_daily_reg_mobile"
+                "enwiki_campaigns",
+                "enwiki_daily_reg_mobile",
+                "enwiki_hourly_reg_y2y"
             ]
         },
         {
