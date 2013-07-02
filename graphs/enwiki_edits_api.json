@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "slug": "enwiki_edit_events",
-    "name": "Hourly main-namespace edit funnel events",
+    "slug": "enwiki_edits_api",
+    "name": "Hourly edits and API edits (all namespaces)",
     "shortName": "",
-    "desc": "Events related to the edit funnel, logged for registered users only.",
+    "desc": "",
     "notes": "",
     "root": {
         "nodeType": "canvas",
@@ -116,15 +116,15 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_edit_events",
-                            "source_col": "visualeditor_edit_attempt",
+                            "source_id": "enwiki_edits_api",
+                            "source_col": "all_edits",
                             "xColumn": 0,
-                            "sourceId": "enwiki_edit_events",
-                            "yColumn": "visualeditor_edit_attempt",
+                            "sourceId": "enwiki_edits_api",
+                            "yColumn": "all_edits",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "visualeditor edit attempt",
+                            "label": "edits",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -133,83 +133,15 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_edit_events",
-                            "source_col": "visualeditor_save_attempt",
+                            "source_id": "enwiki_edits_api",
+                            "source_col": "api_edits",
                             "xColumn": 0,
-                            "sourceId": "enwiki_edit_events",
-                            "yColumn": "visualeditor_save_attempt",
+                            "sourceId": "enwiki_edits_api",
+                            "yColumn": "api_edits",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "visualeditor save attempt",
-                            "disabled": false,
-                            "noLegend": false
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "disabled": false,
-                        "metric": {
-                            "source_id": "enwiki_edit_events",
-                            "source_col": "visualeditor_save_success",
-                            "xColumn": 0,
-                            "sourceId": "enwiki_edit_events",
-                            "yColumn": "visualeditor_save_success",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "visualeditor save success",
-                            "disabled": false,
-                            "noLegend": false
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "disabled": false,
-                        "metric": {
-                            "source_id": "enwiki_edit_events",
-                            "source_col": "wikitext_edit_attempt",
-                            "xColumn": 0,
-                            "sourceId": "enwiki_edit_events",
-                            "yColumn": "wikitext_edit_attempt",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "wikitext edit attempt",
-                            "disabled": false,
-                            "noLegend": false
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "disabled": false,
-                        "metric": {
-                            "source_id": "enwiki_edit_events",
-                            "source_col": "wikitext_save_attempt",
-                            "xColumn": 0,
-                            "sourceId": "enwiki_edit_events",
-                            "yColumn": "wikitext_save_attempt",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "wikitext save attempt",
-                            "disabled": false,
-                            "noLegend": false
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "disabled": false,
-                        "metric": {
-                            "source_id": "enwiki_edit_events",
-                            "source_col": "wikitext_save_success",
-                            "xColumn": 0,
-                            "sourceId": "enwiki_edit_events",
-                            "yColumn": "wikitext_save_success",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "wikitext save success",
+                            "label": "API edits",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -229,5 +161,5 @@
             "padding": 0.1
         }
     },
-    "id": "enwiki_edit_events"
+    "id": "enwiki_edits_api"
 }
