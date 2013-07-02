@@ -15,6 +15,7 @@
         {
             "name": "Edits",
             "graph_ids": [
+                "enwiki_edit_events",
                 "enwiki_revtags"
             ]
         },

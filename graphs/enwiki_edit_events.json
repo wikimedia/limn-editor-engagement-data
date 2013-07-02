@@ -1,8 +1,7 @@
 {
     "graph_version": "0.6.0",
-    "id": "enwiki_revtags",
-    "slug": "enwiki_revtags",
-    "name": "Daily tagged revisions",
+    "slug": "enwiki_edit_events",
+    "name": "Hourly main-namespace edit funnel events",
     "shortName": "",
     "desc": "",
     "notes": "",
@@ -67,9 +66,8 @@
             {
                 "nodeType": "legend",
                 "disabled": false,
-                "label": "Jun 21, 2013",
                 "options": {
-                    "dateFormat": "MMM DD, YYYY",
+                    "dateFormat": "MMM DD, YYYY HH:mm",
                     "valueFormat": ",.2s"
                 }
             },
@@ -118,16 +116,16 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_revtags",
-                            "source_col": "getting_started",
+                            "source_id": "enwiki_edit_events",
+                            "source_col": "visualeditor_edit_attempt",
                             "xColumn": 0,
-                            "sourceId": "enwiki_revtags",
-                            "yColumn": "getting_started",
+                            "sourceId": "enwiki_edit_events",
+                            "yColumn": "visualeditor_edit_attempt",
                             "type": "Number"
                         },
                         "options": {
+                            "label": "visualeditor edit attempt",
                             "disabled": false,
-                            "label": "getting started",
                             "noLegend": false
                         }
                     },
@@ -135,16 +133,16 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_revtags",
-                            "source_col": "visual_editor",
+                            "source_id": "enwiki_edit_events",
+                            "source_col": "visualeditor_save_attempt",
                             "xColumn": 0,
-                            "sourceId": "enwiki_revtags",
-                            "yColumn": "visual_editor",
+                            "sourceId": "enwiki_edit_events",
+                            "yColumn": "visualeditor_save_attempt",
                             "type": "Number"
                         },
                         "options": {
+                            "label": "visualeditor save attempt",
                             "disabled": false,
-                            "label": "visual editor",
                             "noLegend": false
                         }
                     },
@@ -152,16 +150,67 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_revtags",
-                            "source_col": "mobile_edit",
+                            "source_id": "enwiki_edit_events",
+                            "source_col": "visualeditor_save_success",
                             "xColumn": 0,
-                            "sourceId": "enwiki_revtags",
-                            "yColumn": "mobile_edit",
+                            "sourceId": "enwiki_edit_events",
+                            "yColumn": "visualeditor_save_success",
                             "type": "Number"
                         },
                         "options": {
+                            "label": "visualeditor save success",
                             "disabled": false,
-                            "label": "mobile",
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_edit_events",
+                            "source_col": "wikitext_edit_attempt",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_edit_events",
+                            "yColumn": "wikitext_edit_attempt",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext edit attempt",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_edit_events",
+                            "source_col": "wikitext_save_attempt",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_edit_events",
+                            "yColumn": "wikitext_save_attempt",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext save attempt",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_edit_events",
+                            "source_col": "wikitext_save_success",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_edit_events",
+                            "yColumn": "wikitext_save_success",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext save success",
+                            "disabled": false,
                             "noLegend": false
                         }
                     }
@@ -179,5 +228,6 @@
             "scaleType": "linear",
             "padding": 0.1
         }
-    }
+    },
+    "id": "enwiki_edit_events"
 }
