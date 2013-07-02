@@ -1,9 +1,9 @@
 {
     "graph_version": "0.6.0",
-    "slug": "enwiki_cluebotng_edits",
-    "name": "Hourly main-namespace edits by ClueBot NG",
+    "slug": "enwiki_xlinkbot_edits",
+    "name": "Hourly main-namespace edits by XLinkBot",
     "shortName": "",
-    "desc": "Edits to the article namespace by anti-vandal bot User:ClueBot_NG.",
+    "desc": "Edits to the article namespace by anti-vandal bot User:XLinkBot.",
     "notes": "",
     "root": {
         "nodeType": "canvas",
@@ -116,10 +116,10 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_cluebotng_edits",
+                            "source_id": "enwiki_xlinkbot_edits",
                             "source_col": "edits",
                             "xColumn": 0,
-                            "sourceId": "enwiki_cluebotng_edits",
+                            "sourceId": "enwiki_xlinkbot_edits",
                             "yColumn": "edits",
                             "type": "Number"
                         },
@@ -144,5 +144,5 @@
             "padding": 0.1
         }
     },
-    "id": "enwiki_cluebotng_edits"
+    "id": "enwiki_xlinkbot_edits"
 }
