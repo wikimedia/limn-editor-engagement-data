@@ -16,7 +16,7 @@
             "name": "Edits",
             "graph_ids": [
                 "enwiki_edits_api",
-                "enwiki_revtags"
+                "enwiki_rt_hourly"
             ]
         },
         {
