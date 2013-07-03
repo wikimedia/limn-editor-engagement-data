@@ -4,15 +4,6 @@
     "subhead": "editor engagement metrics",
     "tabs": [
         {
-            "name": "Registrations",
-            "graph_ids": [
-                "enwiki_daily_reg",
-                "enwiki_campaigns",
-                "enwiki_daily_reg_mobile",
-                "enwiki_hourly_reg_y2y"
-            ]
-        },
-        {
             "name": "Edits",
             "graph_ids": [
                 "enwiki_edits_api",
@@ -26,6 +17,15 @@
                 "enwiki_ve_reverts",
 		"enwiki_cluebotng_edits",
 		"enwiki_xlinkbot_edits"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "enwiki_daily_reg",
+                "enwiki_campaigns",
+                "enwiki_daily_reg_mobile",
+                "enwiki_hourly_reg_y2y"
             ]
         }
     ]
