@@ -12,8 +12,11 @@
 		"enwiki_echo_category",
 		"enwiki_echo_category_perc",
 		"enwiki_echo_category_cum",
+		"enwiki_echo_views_by_category",
 		"enwiki_echo_clicks_by_category",
+		"enwiki_echo_views_by_source",
 		"enwiki_echo_clicks_by_source",
+		"enwiki_echo_views_by_user_type",
 		"enwiki_echo_clicks_by_user_type",
 		"enwiki_echo_user"
             ]
