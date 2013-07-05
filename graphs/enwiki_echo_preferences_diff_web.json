@@ -1,0 +1,335 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_echo_preferences_diff_web",
+    "name": "Daily changes in Web notification preferences by category",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "enable_edit_user_talk",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "enable_edit_user_talk",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "talk enabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "enable_edit_thank",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "enable_edit_thank",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thank enabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "enable_mention",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "enable_mention",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "mention enabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "enable_article_linked",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "enable_article_linked",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "link enabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "enable_page_review",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "enable_page_review",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "page review enabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "enable_reverted",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "enable_reverted",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "revert enabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "disable_edit_user_talk",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "disable_edit_user_talk",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "talk disabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "disable_edit_thank",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "disable_edit_thank",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "thank disabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "disable_mention",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "disable_mention",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "mention disabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "disable_article_linked",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "disable_article_linked",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "link disabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "disable_page_review",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "disable_page_review",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "page review disabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_web",
+                            "source_col": "disable_reverted",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_web",
+                            "yColumn": "disable_reverted",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "revert disabled",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_echo_preferences_diff_web"
+}

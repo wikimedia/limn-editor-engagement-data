@@ -18,7 +18,11 @@
 		"enwiki_echo_clicks_by_source",
 		"enwiki_echo_views_by_user_type",
 		"enwiki_echo_clicks_by_user_type",
-		"enwiki_echo_user"
+		"enwiki_echo_user",
+		"enwiki_echo_preferences_diff_badge",
+		"enwiki_echo_preferences_diff_web",
+		"enwiki_echo_preferences_diff_email",
+		"enwiki_echo_preferences_diff_email_frequency"
             ]
         },
        {

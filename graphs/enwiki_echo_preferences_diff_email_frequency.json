@@ -1,0 +1,199 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_echo_preferences_diff_email_frequency",
+    "name": "Daily changes in email notification frequency preferences",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email_frequency",
+                            "source_col": "never",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email_frequency",
+                            "yColumn": "never",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "never",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email_frequency",
+                            "source_col": "immediately",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email_frequency",
+                            "yColumn": "immediately",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "immediately",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email_frequency",
+                            "source_col": "daily",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email_frequency",
+                            "yColumn": "daily",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "daily digest",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_echo_preferences_diff_email_frequency",
+                            "source_col": "weekly",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_echo_preferences_diff_email_frequency",
+                            "yColumn": "weekly",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "weekly digest",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_echo_preferences_diff_email_frequency"
+}
