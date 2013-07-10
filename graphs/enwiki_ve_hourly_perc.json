@@ -125,6 +125,7 @@
                             "type": "Number"
                         },
                         "options": {
+                            "label": "visual editor, existing users",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -141,6 +142,7 @@
                             "type": "Number"
                         },
                         "options": {
+                            "label": "visual editor, new users",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -157,6 +159,7 @@
                             "type": "Number"
                         },
                         "options": {
+                            "label": "wikitext editor, existing users",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -173,6 +176,7 @@
                             "type": "Number"
                         },
                         "options": {
+                            "label": "wikitext editor, new users",
                             "disabled": false,
                             "noLegend": false
                         }
