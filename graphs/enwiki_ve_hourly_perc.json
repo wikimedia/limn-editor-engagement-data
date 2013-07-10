@@ -1,0 +1,196 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_ve_hourly_perc",
+    "name": "Hourly edits, visual editor vs wikitext (%)",
+    "shortName": "",
+    "desc": "Percentage of total hourly edits made by registered users via Visual Editor and wikitext editor (all namespaces, bot edits excluded).\n\n* **existing users**: users registered before the global release of visual editor (2013-01-07 21:00:00)\n\n* **new users**: users registered after the release",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "label": "Jun 25, 2013",
+                "options": {
+                    "dateFormat": "MMM DD, YYYY HH:mm",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_hourly_perc",
+                            "source_col": "visual_editor_existing_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_hourly_perc",
+                            "yColumn": "visual_editor_existing_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_hourly_perc",
+                            "source_col": "visual_editor_new_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_hourly_perc",
+                            "yColumn": "visual_editor_new_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_hourly_perc",
+                            "source_col": "wikitext_existing_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_hourly_perc",
+                            "yColumn": "wikitext_existing_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_hourly_perc",
+                            "source_col": "wikitext_new_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_hourly_perc",
+                            "yColumn": "wikitext_new_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_ve_hourly_perc"
+}
