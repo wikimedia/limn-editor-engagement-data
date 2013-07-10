@@ -68,7 +68,7 @@
                 "disabled": false,
                 "label": "Jun 20, 2013",
                 "options": {
-                    "dateFormat": "MMM DD, YYYY",
+                    "dateFormat": "MMM DD, YYYY HH:mm",
                     "valueFormat": ",.2s"
                 }
             },
