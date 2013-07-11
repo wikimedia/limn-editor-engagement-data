@@ -126,7 +126,7 @@
                         },
                         "options": {
                             "label": "visual editor, existing users",
-                            "disabled": false,
+                            "disabled": true,
                             "noLegend": false
                         }
                     },
@@ -160,7 +160,7 @@
                         },
                         "options": {
                             "label": "wikitext editor, existing users",
-                            "disabled": false,
+                            "disabled": true,
                             "noLegend": false
                         }
                     },
