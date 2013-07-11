@@ -82,6 +82,15 @@
                 }
             },
             {
+                "nodeType": "tweaks",
+                "children": [
+                    {
+                        "nodeType": "smooth",
+                        "factor": 1
+                    }
+                ]
+            },
+            {
                 "nodeType": "line-group",
                 "disabled": false,
                 "options": {
