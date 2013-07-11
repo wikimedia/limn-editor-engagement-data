@@ -168,7 +168,7 @@
         },
         "y": {
             "scaleType": "linear",
-            "padding": 0
+            "padding": 0.02
         }
     },
     "id": "enwiki_ve_hourly_perc_by_ui"
