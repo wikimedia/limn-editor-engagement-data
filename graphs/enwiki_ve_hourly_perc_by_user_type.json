@@ -3,7 +3,7 @@
     "slug": "enwiki_ve_hourly_perc_by_user_type",
     "name": "Hourly edits, visual editor vs wikitext (% by user group)",
     "shortName": "",
-    "desc": "Percentage of total hourly edits made by registered users via Visual Editor and wikitext editor by user type (all namespaces, bot edits excluded).\n\n* **existing users**: users registered before the global release of visual editor (2013-01-07 21:00:00)\n* **new users**: users registered after the release",
+    "desc": "Percentage of total hourly edits made by registered users via Visual Editor and wikitext editor by user type (main namespace only, bot edits excluded).\n\n* **existing users**: users registered before the global release of visual editor (2013-01-07 21:00:00)\n* **new users**: users registered after the release",
     "notes": "",
     "root": {
         "nodeType": "canvas",
