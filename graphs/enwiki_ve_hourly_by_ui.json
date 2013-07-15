@@ -3,7 +3,7 @@
     "slug": "enwiki_ve_hourly_by_ui",
     "name": "Hourly edits, visual editor vs wikitext",
     "shortName": "",
-    "desc": "Hourly edits made by registered users via Visual Editor and wikitext editor (main namespace only, bot edits excluded).",
+    "desc": "Hourly edits saved via Visual Editor vs wikitext editor\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded",
     "notes": "",
     "root": {
         "nodeType": "canvas",
