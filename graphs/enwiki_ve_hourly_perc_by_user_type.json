@@ -144,23 +144,6 @@
                         "disabled": false,
                         "metric": {
                             "source_id": "enwiki_ve_hourly_perc_by_user_type",
-                            "source_col": "visual_editor_new_registered_user",
-                            "xColumn": 0,
-                            "sourceId": "enwiki_ve_hourly_perc_by_user_type",
-                            "yColumn": "visual_editor_new_registered_user",
-                            "type": "Number"
-                        },
-                        "options": {
-                            "label": "visual editor, new registered users",
-                            "disabled": false,
-                            "noLegend": false
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "disabled": false,
-                        "metric": {
-                            "source_id": "enwiki_ve_hourly_perc_by_user_type",
                             "source_col": "wikitext_existing_registered_user",
                             "xColumn": 0,
                             "sourceId": "enwiki_ve_hourly_perc_by_user_type",
@@ -170,6 +153,23 @@
                         "options": {
                             "label": "wikitext editor, existing registered users",
                             "disabled": true,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_hourly_perc_by_user_type",
+                            "source_col": "visual_editor_new_registered_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_hourly_perc_by_user_type",
+                            "yColumn": "visual_editor_new_registered_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "visual editor, new registered users",
+                            "disabled": false,
                             "noLegend": false
                         }
                     },
