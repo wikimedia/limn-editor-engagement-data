@@ -6,7 +6,6 @@
         {
             "name": "Edits",
             "graph_ids": [
-                "enwiki_edits_api",
                 "enwiki_ve_hourly_by_ui",
                 "enwiki_ve_hourly_perc_by_ui",
                 "enwiki_ve_hourly",
@@ -14,7 +13,8 @@
                 "enwiki_ve_hourly_perc_by_user_type",
                 "enwiki_ve_daily_editors",
                 "enwiki_rt_hourly",
-                "enwiki_rt_cum"
+                "enwiki_rt_cum",
+                "enwiki_edits_api"
             ]
         },
         {

@@ -1,1 +1,62 @@
-{"slug":"enwiki_ve_daily_editors","format":"csv","type":"timeseries","url":"http://stat1001.wikimedia.org/public-datasets/enwiki/revtags/ve_daily_editors.csv","name":"[enwiki] Daily unique main-namespace editors","shortName":"enwiki_ve_daily_editors","desc":"","notes":"","columns":[{"id":"date","label":"date","type":"Date","index":0,"metricDefs":[]},{"id":"visual_editor_existing_user","label":"visual editor existing user","type":"Number","index":1,"metricDefs":[]},{"id":"visual_editor_new_user","label":"visual editor new user","type":"Number","index":2,"metricDefs":[]},{"id":"wikitext_existing_user","label":"wikitext existing user","type":"Number","index":3,"metricDefs":[]},{"id":"wikitext_new_user","label":"wikitext new user","type":"Number","index":4,"metricDefs":[]}],"id":"enwiki_ve_daily_editors"}
+{
+    "slug": "enwiki_ve_daily_editors",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/revtags/ve_daily_editors.csv",
+    "name": "[enwiki] Daily unique main-namespace editors",
+    "shortName": "enwiki_ve_daily_editors",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "visual_editor_existing_registered_user",
+            "label": "visual editor existing registered user",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "visual_editor_new_registered_user",
+            "label": "visual editor new registered user",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "wikitext_existing_registered_user",
+            "label": "wikitext existing registered user",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "wikitext_new_registered_user",
+            "label": "wikitext new registered user",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        },
+        {
+            "id": "visual_editor_anonymous_user",
+            "label": "visual editor anonymous user",
+            "type": "Number",
+            "index": 5,
+            "metricDefs": []
+        },
+        {
+            "id": "wikitext_anonymous_user",
+            "label": "wikitext anonymous user",
+            "type": "Number",
+            "index": 6,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_ve_daily_editors"
+}

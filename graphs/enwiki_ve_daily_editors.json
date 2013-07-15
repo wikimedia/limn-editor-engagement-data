@@ -3,7 +3,7 @@
     "slug": "enwiki_ve_daily_editors",
     "name": "Daily unique editors",
     "shortName": "",
-    "desc": "Daily unique users editing main-namespace articles via Visual Editor vs wikitext editor (main namespace only, bot edits excluded). \n\n* **existing users**: users registered before the global release of visual editor (2013-01-07 21:00:00)\n* **new users**: users registered after the release",
+    "desc": "Daily unique registered users and IP addresses editing via Visual Editor vs wikitext editor.\n\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded\n### Definitions\n* **existing registered users**: unique user IDs registered before the global rollout of visual editor (2013-01-07 21:00:00)\n* **new registered users**: unique user IDs registered after the rollout\n* **anonymous users:** unique IP addresses (note: a unique anonymous user may edit from multiple IP addresses due to IP rotation)",
     "notes": "",
     "root": {
         "nodeType": "canvas",
@@ -118,14 +118,14 @@
                         "disabled": false,
                         "metric": {
                             "source_id": "enwiki_ve_daily_editors",
-                            "source_col": "visual_editor_existing_user",
+                            "source_col": "visual_editor_existing_registered_user",
                             "xColumn": 0,
                             "sourceId": "enwiki_ve_daily_editors",
-                            "yColumn": "visual_editor_existing_user",
+                            "yColumn": "visual_editor_existing_registered_user",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "visual editor, existing users",
+                            "label": "visual editor, existing registered users",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -135,14 +135,14 @@
                         "disabled": false,
                         "metric": {
                             "source_id": "enwiki_ve_daily_editors",
-                            "source_col": "visual_editor_new_user",
+                            "source_col": "visual_editor_new_registered_user",
                             "xColumn": 0,
                             "sourceId": "enwiki_ve_daily_editors",
-                            "yColumn": "visual_editor_new_user",
+                            "yColumn": "visual_editor_new_registered_user",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "visual editor, new users",
+                            "label": "visual editor, new registered users",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -152,14 +152,14 @@
                         "disabled": false,
                         "metric": {
                             "source_id": "enwiki_ve_daily_editors",
-                            "source_col": "wikitext_existing_user",
+                            "source_col": "wikitext_existing_registered_user",
                             "xColumn": 0,
                             "sourceId": "enwiki_ve_daily_editors",
-                            "yColumn": "wikitext_existing_user",
+                            "yColumn": "wikitext_existing_registered_user",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "wikitext editor, existing users",
+                            "label": "wikitext editor, existing registered users",
                             "disabled": false,
                             "noLegend": false
                         }
@@ -169,14 +169,48 @@
                         "disabled": false,
                         "metric": {
                             "source_id": "enwiki_ve_daily_editors",
-                            "source_col": "wikitext_new_user",
+                            "source_col": "wikitext_new_registered_user",
                             "xColumn": 0,
                             "sourceId": "enwiki_ve_daily_editors",
-                            "yColumn": "wikitext_new_user",
+                            "yColumn": "wikitext_new_registered_user",
                             "type": "Number"
                         },
                         "options": {
-                            "label": "wikitext editor, new users",
+                            "label": "wikitext editor, new registered users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_daily_editors",
+                            "source_col": "visual_editor_anonymous_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_daily_editors",
+                            "yColumn": "visual_editor_anonymous_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "visual editor, anonymous users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_ve_daily_editors",
+                            "source_col": "wikitext_anonymous_user",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_ve_daily_editors",
+                            "yColumn": "wikitext_anonymous_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext editor, anonymous users",
                             "disabled": false,
                             "noLegend": false
                         }
