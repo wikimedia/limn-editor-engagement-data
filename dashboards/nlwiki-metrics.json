@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "Dutch Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "nlwiki_ve_hourly_by_ui",
+                "nlwiki_ve_hourly_perc_by_ui",
+                "nlwiki_ve_hourly",
+                "nlwiki_ve_hourly_perc",
+                "nlwiki_ve_hourly_perc_by_user_type",
+                "nlwiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "nlwiki_daily_reg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "graph_version": "0.6.0",
+    "id": "nlwiki_daily_reg",
+    "slug": "nlwiki_daily_reg",
+    "name": "New account registrations",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "label": "Aug 31, 2012",
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                   "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 1,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "nlwiki_daily_reg",
+                            "source_col": "new_accounts",
+                            "xColumn": 0,
+                            "sourceId": "nlwiki_daily_reg",
+                            "yColumn": "new_accounts",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "new accounts",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    }
+}

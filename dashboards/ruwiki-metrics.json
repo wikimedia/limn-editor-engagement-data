@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "Russian Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "ruwiki_ve_hourly_by_ui",
+                "ruwiki_ve_hourly_perc_by_ui",
+                "ruwiki_ve_hourly",
+                "ruwiki_ve_hourly_perc",
+                "ruwiki_ve_hourly_perc_by_user_type",
+                "ruwiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "ruwiki_daily_reg"
+            ]
+        }
+    ]
+}

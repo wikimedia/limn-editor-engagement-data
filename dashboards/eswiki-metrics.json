@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "Spanish Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "eswiki_ve_hourly_by_ui",
+                "eswiki_ve_hourly_perc_by_ui",
+                "eswiki_ve_hourly",
+                "eswiki_ve_hourly_perc",
+                "eswiki_ve_hourly_perc_by_user_type",
+                "eswiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "eswiki_daily_reg"
+            ]
+        }
+    ]
+}

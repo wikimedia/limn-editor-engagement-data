@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "German Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "dewiki_ve_hourly_by_ui",
+                "dewiki_ve_hourly_perc_by_ui",
+                "dewiki_ve_hourly",
+                "dewiki_ve_hourly_perc",
+                "dewiki_ve_hourly_perc_by_user_type",
+                "dewiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "dewiki_daily_reg"
+            ]
+        }
+    ]
+}

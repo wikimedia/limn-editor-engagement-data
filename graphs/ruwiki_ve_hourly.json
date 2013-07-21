@@ -1,0 +1,242 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "ruwiki_ve_hourly",
+    "name": "Hourly edits, visual editor vs wikitext editor",
+    "shortName": "",
+    "desc": "Hourly edits saved via Visual Editor vs wikitext editor.\n\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded\n### Definitions\n* **existing registered users**: users registered before the global rollout of visual editor (2013-01-07 21:00:00)\n* **new registered users**: users registered after the rollout\n* **anonymous users:** users editing from an IP address",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "options": {
+                    "dateFormat": "MMM DD, YYYY HH:mm",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "tweaks",
+                "children": [
+                    {
+                        "nodeType": "smooth",
+                        "factor": 1
+                    }
+                ]
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "ruwiki_ve_hourly",
+                            "source_col": "visual_editor_existing_registered_user",
+                            "xColumn": 0,
+                            "sourceId": "ruwiki_ve_hourly",
+                            "yColumn": "visual_editor_existing_registered_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "visual editor, existing registered users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "ruwiki_ve_hourly",
+                            "source_col": "visual_editor_new_registered_user",
+                            "xColumn": 0,
+                            "sourceId": "ruwiki_ve_hourly",
+                            "yColumn": "visual_editor_new_registered_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "visual editor, new registered users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "ruwiki_ve_hourly",
+                            "source_col": "wikitext_existing_registered_user",
+                            "xColumn": 0,
+                            "sourceId": "ruwiki_ve_hourly",
+                            "yColumn": "wikitext_existing_registered_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext editor, existing registered users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "ruwiki_ve_hourly",
+                            "source_col": "wikitext_new_registered_user",
+                            "xColumn": 0,
+                            "sourceId": "ruwiki_ve_hourly",
+                            "yColumn": "wikitext_new_registered_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext editor, new registered users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "ruwiki_ve_hourly",
+                            "source_col": "visual_editor_anonymous_user",
+                            "xColumn": 0,
+                            "sourceId": "ruwiki_ve_hourly",
+                            "yColumn": "visual_editor_anonymous_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "visual editor, anonymous users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "ruwiki_ve_hourly",
+                            "source_col": "wikitext_anonymous_user",
+                            "xColumn": 0,
+                            "sourceId": "ruwiki_ve_hourly",
+                            "yColumn": "wikitext_anonymous_user",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "wikitext editor, anonymous users",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "ruwiki_ve_hourly"
+}

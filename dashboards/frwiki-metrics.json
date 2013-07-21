@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "French Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "frwiki_ve_hourly_by_ui",
+                "frwiki_ve_hourly_perc_by_ui",
+                "frwiki_ve_hourly",
+                "frwiki_ve_hourly_perc",
+                "frwiki_ve_hourly_perc_by_user_type",
+                "frwiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "frwiki_daily_reg"
+            ]
+        }
+    ]
+}

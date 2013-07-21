@@ -1,16 +1,16 @@
 {
-    "slug": "enwiki_daily_reg",
+    "slug": "dewiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/registrations/reg3_daily.csv",
-    "name": "[enwiki] New account registrations",
-    "shortName": "enwiki_daily_reg",
+    "url": "http://stat1001.wikimedia.org/public-datasets/dewiki/registrations/reg_daily.csv",
+    "name": "[dewiki] New account registrations",
+    "shortName": "dewiki_daily_reg",
     "desc": "",
     "notes": "",
     "columns": [
         {
-            "id": "datetime",
-            "label": "datetime",
+            "id": "date",
+            "label": "date",
             "type": "Date",
             "index": 0,
             "metricDefs": []
@@ -23,5 +23,5 @@
             "metricDefs": []
         }
     ],
-    "id": "enwiki_daily_reg"
+    "id": "dewiki_daily_reg"
 }

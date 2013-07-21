@@ -1,0 +1,62 @@
+{
+    "slug": "nlwiki_ve_hourly",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/nlwiki/revtags/ve_hourly.csv",
+    "name": "[nlwiki] Hourly edits, visual editor vs wikitext",
+    "shortName": "nlwiki_ve_hourly",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "visual_editor_existing_registered_user",
+            "label": "visual editor existing registered user",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "visual_editor_new__registered_user",
+            "label": "visual editor new registered user",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "wikitext_existing_registered_user",
+            "label": "wikitext existing registered user",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "wikitext_new_registered_user",
+            "label": "wikitext new registered user",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        },
+        {
+            "id": "visual_editor_anonymous_user",
+            "label": "visual editor anonymous user",
+            "type": "Number",
+            "index": 5,
+            "metricDefs": []
+        },
+        {
+            "id": "wikitext_anonymous_user",
+            "label": "wikitext anonymous user",
+            "type": "Number",
+            "index": 6,
+            "metricDefs": []
+        }
+    ],
+    "id": "nlwiki_ve_hourly"
+}

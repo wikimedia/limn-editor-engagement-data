@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "Polish Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "plwiki_ve_hourly_by_ui",
+                "plwiki_ve_hourly_perc_by_ui",
+                "plwiki_ve_hourly",
+                "plwiki_ve_hourly_perc",
+                "plwiki_ve_hourly_perc_by_user_type",
+                "plwiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "plwiki_daily_reg"
+            ]
+        }
+    ]
+}
