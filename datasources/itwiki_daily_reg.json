@@ -1,0 +1,27 @@
+{
+    "slug": "itwiki_daily_reg",
+    "format": "csv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/itwiki/registrations/reg_daily.csv",
+    "name": "[itwiki] New account registrations",
+    "shortName": "itwiki_daily_reg",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "new_accounts",
+            "label": "new accounts",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        }
+    ],
+    "id": "itwiki_daily_reg"
+}
