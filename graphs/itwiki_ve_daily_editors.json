@@ -3,7 +3,7 @@
     "slug": "itwiki_ve_daily_editors",
     "name": "Daily unique editors",
     "shortName": "",
-    "desc": "Daily unique registered users and IP addresses editing via Visual Editor vs wikitext editor.\n\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded\n### Definitions\n* **existing registered users**: unique user IDs registered before the global rollout of visual editor (2013-01-07 21:00:00)\n* **new registered users**: unique user IDs registered after the rollout\n* **anonymous users:** unique IP addresses (note: a unique anonymous user may edit from multiple IP addresses due to IP rotation)",
+    "desc": "Daily unique registered users and IP addresses editing via Visual Editor vs wikitext editor.\n\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded\n### Definitions\n* **existing registered users**: unique user IDs registered before the global rollout of visual editor (2013-07-25 00:00:00)\n* **new registered users**: unique user IDs registered after the rollout\n* **anonymous users:** unique IP addresses (note: a unique anonymous user may edit from multiple IP addresses due to IP rotation)",
     "notes": "",
     "root": {
         "nodeType": "canvas",

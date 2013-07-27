@@ -3,7 +3,7 @@
     "slug": "hewiki_ve_hourly_perc",
     "name": "Hourly edits, visual editor vs wikitext (%)",
     "shortName": "",
-    "desc": "Percentage of hourly edits saved via Visual Editor vs wikitext editor.\n\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded\n### Definitions\n* **existing registered users**: users registered before the global rollout of visual editor (2013-01-07 21:00:00)\n* **new registered users**: users registered after the rollout\n* **anonymous users:** users editing from an IP address",
+    "desc": "Percentage of hourly edits saved via Visual Editor vs wikitext editor.\n\n###Filters\n* **Users:** All (registered + anonymous)\n* **Namespaces:** Article (0)\n* **Bots:** excluded\n### Definitions\n* **existing registered users**: users registered before the global rollout of visual editor (2013-07-25 00:00:00)\n* **new registered users**: users registered after the rollout\n* **anonymous users:** users editing from an IP address",
     "notes": "",
     "root": {
         "nodeType": "canvas",
