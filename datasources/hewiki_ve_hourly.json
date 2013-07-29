@@ -23,7 +23,7 @@
             "metricDefs": []
         },
         {
-            "id": "visual_editor_new__registered_user",
+            "id": "visual_editor_new_registered_user",
             "label": "visual editor new registered user",
             "type": "Number",
             "index": 2,
