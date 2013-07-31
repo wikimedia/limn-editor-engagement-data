@@ -1,10 +1,10 @@
 {
-    "slug": "enwiki_ve_reverts",
+    "slug": "dewiki_ve_reverts",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/ve/reverts.tsv",
-    "name": "[enwiki] Reverted edits by reverting agent type",
-    "shortName": "enwiki_ve_reverts",
+    "url": "http://stat1001.wikimedia.org/public-datasets/dewiki/ve/reverts.tsv",
+    "name": "[dewiki] Reverted edits by reverting agent type",
+    "shortName": "dewiki_ve_reverts",
     "desc": "",
     "notes": "",
     "columns": [
@@ -51,5 +51,5 @@
             "metricDefs": []
         }
     ],
-    "id": "enwiki_ve_reverts"
+    "id": "dewiki_ve_reverts"
 }

@@ -15,6 +15,12 @@
             ]
         },
         {
+            "name": "Reverts",
+            "graph_ids": [
+                "dewiki_ve_reverts"
+            ]
+        },
+        {
             "name": "Registrations",
             "graph_ids": [
                 "dewiki_daily_reg"
