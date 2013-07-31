@@ -15,6 +15,12 @@
             ]
         },
         {
+            "name": "Reverts",
+            "graph_ids": [
+                "itwiki_ve_reverts"
+            ]
+        },
+        {
             "name": "Registrations",
             "graph_ids": [
                 "itwiki_daily_reg"

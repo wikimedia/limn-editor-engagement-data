@@ -15,6 +15,12 @@
             ]
         },
         {
+            "name": "Reverts",
+            "graph_ids": [
+                "svwiki_ve_reverts"
+            ]
+        },
+        {
             "name": "Registrations",
             "graph_ids": [
                 "svwiki_daily_reg"

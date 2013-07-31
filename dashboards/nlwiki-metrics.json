@@ -15,6 +15,12 @@
             ]
         },
         {
+            "name": "Reverts",
+            "graph_ids": [
+                "nlwiki_ve_reverts"
+            ]
+        },
+        {
             "name": "Registrations",
             "graph_ids": [
                 "nlwiki_daily_reg"
