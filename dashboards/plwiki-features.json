@@ -1,0 +1,19 @@
+{
+    "id"       : "plwiki-features",
+    "headline" : "Polish Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "plwiki_echo_all",
+                "plwiki_echo_all_cum",
+		"plwiki_echo_category",
+		"plwiki_echo_category_perc",
+		"plwiki_echo_category_cum",
+		"plwiki_echo_user"
+            ]
+        }
+    ]
+}

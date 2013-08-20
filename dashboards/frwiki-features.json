@@ -1,0 +1,19 @@
+{
+    "id"       : "frwiki-features",
+    "headline" : "French Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "frwiki_echo_all",
+                "frwiki_echo_all_cum",
+		"frwiki_echo_category",
+		"frwiki_echo_category_perc",
+		"frwiki_echo_category_cum",
+		"frwiki_echo_user"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id"       : "svwiki-features",
+    "headline" : "Swedish Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "svwiki_echo_all",
+                "svwiki_echo_all_cum",
+		"svwiki_echo_category",
+		"svwiki_echo_category_perc",
+		"svwiki_echo_category_cum",
+		"svwiki_echo_user"
+            ]
+        }
+    ]
+}

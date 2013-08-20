@@ -1,0 +1,19 @@
+{
+    "id"       : "huwiki-features",
+    "headline" : "Hungarian Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "huwiki_echo_all",
+                "huwiki_echo_all_cum",
+		"huwiki_echo_category",
+		"huwiki_echo_category_perc",
+		"huwiki_echo_category_cum",
+		"huwiki_echo_user"
+            ]
+        }
+    ]
+}

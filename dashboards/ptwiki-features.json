@@ -1,0 +1,19 @@
+{
+    "id"       : "ptwiki-features",
+    "headline" : "Portuguese Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "ptwiki_echo_all",
+                "ptwiki_echo_all_cum",
+		"ptwiki_echo_category",
+		"ptwiki_echo_category_perc",
+		"ptwiki_echo_category_cum",
+		"ptwiki_echo_user"
+            ]
+        }
+    ]
+}
