@@ -1,0 +1,19 @@
+{
+    "id"       : "hewiki-features",
+    "headline" : "Hebrew Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "hewiki_echo_all",
+                "hewiki_echo_all_cum",
+		"hewiki_echo_category",
+		"hewiki_echo_category_perc",
+		"hewiki_echo_category_cum",
+		"hewiki_echo_user"
+            ]
+        }
+    ]
+}

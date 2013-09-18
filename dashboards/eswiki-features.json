@@ -1,0 +1,19 @@
+{
+    "id"       : "eswiki-features",
+    "headline" : "Spanish Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "eswiki_echo_all",
+                "eswiki_echo_all_cum",
+		"eswiki_echo_category",
+		"eswiki_echo_category_perc",
+		"eswiki_echo_category_cum",
+		"eswiki_echo_user"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id"       : "nlwiki-features",
+    "headline" : "Dutch Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "nlwiki_echo_all",
+                "nlwiki_echo_all_cum",
+		"nlwiki_echo_category",
+		"nlwiki_echo_category_perc",
+		"nlwiki_echo_category_cum",
+		"nlwiki_echo_user"
+            ]
+        }
+    ]
+}
