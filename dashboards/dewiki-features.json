@@ -1,0 +1,32 @@
+{
+    "id"       : "dewiki-features",
+    "headline" : "German Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+       {
+            "name": "Article feedback",
+            "graph_ids":
+            [
+                "dewiki_aft5_daily",
+                "dewiki_aft5_cum",
+                "dewiki_aft5_daily_unique_articles",
+                "dewiki_aft5_daily_by_usertype",
+                "dewiki_aft5_daily_by_usertype_perc"
+            ]
+        },
+       {
+            "name": "Article feedback moderation",
+            "graph_ids":
+            [
+                "dewiki_fp_logging",
+                "dewiki_fp_logging_perc",
+                "dewiki_fp_logging_cum",
+                "dewiki_fp_logging_cum_perc",
+                "dewiki_fp_logging_by_article_unique",
+                "dewiki_fp_logging_daily_article_moderation_perc",
+                "dewiki_fp_logging_by_user_type_unique",
+                "dewiki_fp_logging_by_user_type"
+            ]
+        }
+    ]
+}

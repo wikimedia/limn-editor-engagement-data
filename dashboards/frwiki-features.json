@@ -14,6 +14,31 @@
 		"frwiki_echo_category_cum",
 		"frwiki_echo_user"
             ]
+        },
+       {
+            "name": "Article feedback",
+            "graph_ids":
+            [
+                "frwiki_aft5_daily",
+                "frwiki_aft5_cum",
+                "frwiki_aft5_daily_unique_articles",
+                "frwiki_aft5_daily_by_usertype",
+                "frwiki_aft5_daily_by_usertype_perc"
+            ]
+        },
+       {
+            "name": "Article feedback moderation",
+            "graph_ids":
+            [
+                "frwiki_fp_logging",
+                "frwiki_fp_logging_perc",
+                "frwiki_fp_logging_cum",
+                "frwiki_fp_logging_cum_perc",
+                "frwiki_fp_logging_by_article_unique",
+                "frwiki_fp_logging_daily_article_moderation_perc",
+                "frwiki_fp_logging_by_user_type_unique",
+                "frwiki_fp_logging_by_user_type"
+            ]
         }
     ]
 }
