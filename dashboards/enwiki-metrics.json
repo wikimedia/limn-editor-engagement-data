@@ -12,6 +12,7 @@
                 "enwiki_ve_hourly_perc",
                 "enwiki_ve_hourly_perc_by_user_type",
                 "enwiki_ve_daily_editors",
+                "enwiki_revtags",
                 "enwiki_rt_hourly",
                 "enwiki_rt_cum",
                 "enwiki_edits_api"
