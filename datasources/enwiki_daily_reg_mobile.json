@@ -16,6 +16,13 @@
             "metricDefs": []
         },
         {
+            "id": "new_accounts",
+            "label": "new accounts",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
             "id": "new_accounts_(en)",
             "label": "new accounts (en)",
             "type": "Number",
