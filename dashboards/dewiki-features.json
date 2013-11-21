@@ -3,6 +3,18 @@
     "headline" : "German Wikipedia",
     "subhead"  : "editor engagement features",
     "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids":
+            [
+                "dewiki_echo_all",
+                "dewiki_echo_all_cum",
+                "dewiki_echo_category",
+                "dewiki_echo_category_perc",
+                "dewiki_echo_category_cum",
+                "dewiki_echo_user"
+            ]
+        },
        {
             "name": "Article feedback",
             "graph_ids":

@@ -1,0 +1,19 @@
+{
+    "id"       : "itwiki-features",
+    "headline" : "Italian Wikipedia",
+    "subhead"  : "editor engagement features",
+    "tabs": [
+        {
+            "name": "Notifications",
+            "graph_ids": 
+            [
+                "itwiki_echo_all",
+                "itwiki_echo_all_cum",
+		"itwiki_echo_category",
+		"itwiki_echo_category_perc",
+		"itwiki_echo_category_cum",
+		"itwiki_echo_user"
+            ]
+        }
+    ]
+}
