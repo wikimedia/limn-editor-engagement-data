@@ -1,0 +1,24 @@
+{
+    "id": "metrics",
+    "headline": "Portuguese Wikipedia",
+    "subhead": "editor engagement metrics",
+    "tabs": [
+        {
+            "name": "Edits",
+            "graph_ids": [
+                "ptwiki_ve_hourly_by_ui",
+                "ptwiki_ve_hourly_perc_by_ui",
+                "ptwiki_ve_hourly",
+                "ptwiki_ve_hourly_perc",
+                "ptwiki_ve_hourly_perc_by_user_type",
+                "ptwiki_ve_daily_editors"
+            ]
+        },
+        {
+            "name": "Registrations",
+            "graph_ids": [
+                "ptwiki_daily_reg"
+            ]
+        }
+    ]
+}
