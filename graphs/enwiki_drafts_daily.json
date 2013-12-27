@@ -1,0 +1,200 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "enwiki_drafts_daily",
+    "name": "Drafts",
+    "shortName": "",
+    "desc": "Daily <a href='https://en.wikipedia.org/wiki/Wikipedia:Drafts'>drafts</a> created, moved, published or deleted.",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "label": "Dec 18, 2013",
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_drafts_daily",
+                            "source_col": "created",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_drafts_daily",
+                            "yColumn": "created",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "created",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_drafts_daily",
+                            "source_col": "move",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_drafts_daily",
+                            "yColumn": "move",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "moved",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_drafts_daily",
+                            "source_col": "published",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_drafts_daily",
+                            "yColumn": "published",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "published",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_drafts_daily",
+                            "source_col": "deleted",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_drafts_daily",
+                            "yColumn": "deleted",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "label": "deleted",
+                            "disabled": false,
+                            "noLegend": false
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_drafts_daily"
+}

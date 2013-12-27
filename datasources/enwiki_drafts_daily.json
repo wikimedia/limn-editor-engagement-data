@@ -1,0 +1,48 @@
+{
+    "slug": "enwiki_drafts_daily",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/drafts/daily_drafts.tsv",
+    "name": "enwiki_drafts_daily",
+    "shortName": "[enwiki] Daily draft log",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "day_date",
+            "label": "day_date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "created",
+            "label": "created",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "move",
+            "label": "move",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        },
+        {
+            "id": "published",
+            "label": "published",
+            "type": "Number",
+            "index": 3,
+            "metricDefs": []
+        },
+        {
+            "id": "deleted",
+            "label": "deleted",
+            "type": "Number",
+            "index": 4,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_drafts_daily"
+}

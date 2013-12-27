@@ -27,6 +27,12 @@
             ]
         },
         {
+            "name": "Pages",
+            "graph_ids": [
+		"enwiki_drafts_daily"
+            ]
+        },
+        {
             "name": "Registrations",
             "graph_ids": [
                 "enwiki_daily_reg",
