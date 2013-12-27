@@ -3,7 +3,7 @@
     "slug": "enwiki_drafts_daily",
     "name": "Drafts",
     "shortName": "",
-    "desc": "Daily <a href='https://en.wikipedia.org/wiki/Wikipedia:Drafts'>drafts</a> created, moved, published or deleted.",
+    "desc": "This plot summarizes daily activities relevant to the [drafts namespace](https://en.wikipedia.org/wiki/Wikipedia:Draft_namespace).\n\n* **created** - Count of the number of pages created in the draft namespace\n* **moved** - Count of the number of pages moved into the draft namespace from elsewhere\n* **published** - Count of the number of pages moved from draft namespace to main\n* **deleted** - Count of the number of pages deleted from the draft namespace.",
     "notes": "",
     "root": {
         "nodeType": "canvas",
