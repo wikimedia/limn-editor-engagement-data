@@ -6,8 +6,8 @@
         {
             "name": "Tagged edits",
             "graph_ids": [
-                "http://stat1001.wikimedia.org/public-datasets/all/gettingstarted/daily_gettingstarted_edits.enwiki.tsv"
-                "http://stat1001.wikimedia.org/public-datasets/all/gettingstarted/daily_gettingstarted_edits.non-enwiki.tsv"
+                "http://stat1001.wikimedia.org/public-datasets/all/gettingstarted/daily_gettingstarted_edits.enwiki.tsv",
+                "http://stat1001.wikimedia.org/public-datasets/all/gettingstarted/daily_gettingstarted_edits.non-enwiki.tsv",
                 "http://stat1001.wikimedia.org/public-datasets/all/gettingstarted/daily_gettingstarted_edits.tsv"
             ]
         }
