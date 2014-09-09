@@ -2,7 +2,7 @@
     "slug": "frwiki_ve_reverts",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/frwiki/ve/reverts.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/frwiki/ve/reverts.tsv",
     "name": "[frwiki] Reverted edits by reverting agent type",
     "shortName": "frwiki_ve_reverts",
     "desc": "",

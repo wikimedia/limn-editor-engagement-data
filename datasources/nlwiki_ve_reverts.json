@@ -2,7 +2,7 @@
     "slug": "nlwiki_ve_reverts",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/nlwiki/ve/reverts.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/nlwiki/ve/reverts.tsv",
     "name": "[nlwiki] Reverted edits by reverting agent type",
     "shortName": "nlwiki_ve_reverts",
     "desc": "",

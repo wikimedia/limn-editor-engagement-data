@@ -2,7 +2,7 @@
     "slug": "ruwiki_ve_reverts",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/ruwiki/ve/reverts.tsv",
+    "url": "http://datasets.wikimedia.org/public-datasets/ruwiki/ve/reverts.tsv",
     "name": "[ruwiki] Reverted edits by reverting agent type",
     "shortName": "ruwiki_ve_reverts",
     "desc": "",

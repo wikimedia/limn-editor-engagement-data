@@ -2,7 +2,7 @@
     "slug": "ptwiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/ptwiki/registrations/reg_daily.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/ptwiki/registrations/reg_daily.csv",
     "name": "[ptwiki] New account registrations",
     "shortName": "ptwiki_daily_reg",
     "desc": "",

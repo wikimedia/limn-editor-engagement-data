@@ -2,7 +2,7 @@
     "slug": "dewiki_ve_hourly",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/dewiki/revtags/ve_hourly.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/dewiki/revtags/ve_hourly.csv",
     "name": "[dewiki] Hourly edits, visual editor vs wikitext",
     "shortName": "dewiki_ve_hourly",
     "desc": "",

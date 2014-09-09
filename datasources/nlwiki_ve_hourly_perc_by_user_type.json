@@ -2,7 +2,7 @@
     "slug": "nlwiki_ve_hourly_perc_by_user_type",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/nlwiki/revtags/ve_hourly_perc_by_user_type.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/nlwiki/revtags/ve_hourly_perc_by_user_type.csv",
     "name": "[nlwiki] Hourly edits, visual editor vs wikitext (% by user group)",
     "shortName": "nlwiki_ve_hourly_perc_by_user_type",
     "desc": "",

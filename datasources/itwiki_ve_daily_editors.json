@@ -2,7 +2,7 @@
     "slug": "itwiki_ve_daily_editors",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/itwiki/revtags/ve_daily_editors.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/itwiki/revtags/ve_daily_editors.csv",
     "name": "[itwiki] Daily unique main-namespace editors",
     "shortName": "itwiki_ve_daily_editors",
     "desc": "",

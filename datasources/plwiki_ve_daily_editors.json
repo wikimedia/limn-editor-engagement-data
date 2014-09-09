@@ -2,7 +2,7 @@
     "slug": "plwiki_ve_daily_editors",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/plwiki/revtags/ve_daily_editors.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/plwiki/revtags/ve_daily_editors.csv",
     "name": "[plwiki] Daily unique main-namespace editors",
     "shortName": "plwiki_ve_daily_editors",
     "desc": "",

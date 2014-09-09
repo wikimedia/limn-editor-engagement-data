@@ -2,7 +2,7 @@
     "slug": "hewiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/hewiki/registrations/reg_daily.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/hewiki/registrations/reg_daily.csv",
     "name": "[hewiki] New account registrations",
     "shortName": "hewiki_daily_reg",
     "desc": "",
