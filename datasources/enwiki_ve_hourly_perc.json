@@ -2,7 +2,7 @@
     "slug": "enwiki_ve_hourly_perc",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/enwiki/revtags/ve_hourly_perc.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/enwiki/revtags/ve_hourly_perc.csv",
     "name": "[enwiki] Hourly edits, visual editor vs wikitext (%)",
     "shortName": "enwiki_ve_hourly_perc",
     "desc": "",

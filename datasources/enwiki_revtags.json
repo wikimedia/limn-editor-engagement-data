@@ -2,7 +2,7 @@
     "slug": "enwiki_revtags",
     "format": "csv",
     "type": "timeseries",
-    "url": "http:\/\/stat1001.wikimedia.org\/public-datasets\/enwiki\/revtags\/rt_daily.csv",
+    "url": "http:\/\/datasets.wikimedia.org\/public-datasets\/enwiki\/revtags\/rt_daily.csv",
     "name": "[enwiki] Daily tagged revisions",
     "shortName": "enwiki_revtags",
     "desc": "",

@@ -2,7 +2,7 @@
     "slug": "ptwiki_ve_hourly_perc_by_user_type",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://stat1001.wikimedia.org/public-datasets/ptwiki/revtags/ve_hourly_perc_by_user_type.csv",
+    "url": "http://datasets.wikimedia.org/public-datasets/ptwiki/revtags/ve_hourly_perc_by_user_type.csv",
     "name": "[ptwiki] Hourly edits, visual editor vs wikitext (% by user group)",
     "shortName": "ptwiki_ve_hourly_perc_by_user_type",
     "desc": "",
