@@ -69,7 +69,6 @@
             "name": "WikiLove",
             "graph_ids": 
             [
-                "enwiki_wikilove_category_daily",
                 "enwiki_wikilove_category_monthly"
             ]
         }

@@ -1,6 +1,6 @@
 {
     "slug": "enwiki_wikilove_category_monthly",
-    "name": "Daily WikiLove posts by category",
+    "name": "Monthly WikiLove posts by category",
     "shortName": "",
     "desc": "",
     "notes": "",
@@ -177,7 +177,7 @@
                         "options": {
                             "disabled": false,
                             "noLegend": false,
-                            "label": "customs"
+                            "label": "custom wikilove"
                         }
                     }
                 ]
