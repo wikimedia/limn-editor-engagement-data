@@ -64,6 +64,13 @@
                 "enwiki_pc_logging_users_actions_daily_comp",
                 "enwiki_pc_logging_users_actions_daily_comp_perc"
             ]
+        },
+		{
+            "name": "WikiLove",
+            "graph_ids": 
+            [
+                "enwiki_wikilove_category"
+            ]
         }
     ]
 }

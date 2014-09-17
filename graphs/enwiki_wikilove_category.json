@@ -1,0 +1,200 @@
+{
+    "graph_version": "0.1.0",
+    "slug": "enwiki_wikilove_category",
+    "name": "Daily WikiLove posts by category",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x",
+                    "orient": "bottom"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "disabled": false,
+                "options": {
+                    "tickFormat": "MMM YY",
+                    "labelSize": 10,
+                    "labelColor": "#666666",
+                    "stroke": {
+                        "width": 2,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y",
+                    "orient": "left"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "disabled": false,
+                "options": {
+                    "ticks": 10,
+                    "stroke": {
+                        "width": 1,
+                        "color": "#CACACA"
+                    },
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "disabled": false,
+                "label": "Jun 01, 2013",
+                "options": {
+                    "dateFormat": "MMM DD, YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "zoom-brush",
+                "disabled": false,
+                "options": {
+                    "zoom": {
+                        "allow": "both"
+                    }
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "disabled": false,
+                "options": {
+                    "palette": "category10",
+                    "stack": {
+                        "enabled": false,
+                        "offset": "zero",
+                        "order": "default"
+                    },
+                    "bands": {
+                        "padding": 0.2
+                    },
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 1,
+                        "pattern": "solid",
+                        "opacity": 1
+                    },
+                    "hoverPoints": {
+                        "enabled": true,
+                        "radius": 3,
+                        "fillOpacity": 1,
+                        "stroke": {
+                            "width": 0,
+                            "pattern": "solid",
+                            "opacity": 1
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_wikilove_category",
+                            "source_col": "barnstars",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_wikilove_category",
+                            "yColumn": "barnstars",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "barnstars"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_wikilove_category",
+                            "source_col": "food",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_wikilove_category",
+                            "yColumn": "food",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "food"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_wikilove_category",
+                            "source_col": "kittens",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_wikilove_category",
+                            "yColumn": "kittens",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "kittens"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "enwiki_wikilove_category",
+                            "source_col": "customs",
+                            "xColumn": 0,
+                            "sourceId": "enwiki_wikilove_category",
+                            "yColumn": "customs",
+                            "type": "Number"
+                        },
+                        "options": {
+                            "disabled": false,
+                            "noLegend": false,
+                            "label": "customs"
+                        }
+                    }
+                ]
+            }
+        ],
+        "width": 900,
+        "minWidth": 750,
+        "height": 350,
+        "minHeight": 500,
+        "x": {
+            "padding": 0
+        },
+        "y": {
+            "scaleType": "linear",
+            "padding": 0.1
+        }
+    },
+    "id": "enwiki_wikilove_category"
+}
