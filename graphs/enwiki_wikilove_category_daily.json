@@ -1,5 +1,5 @@
 {
-    "slug": "enwiki_wikilove_category",
+    "slug": "enwiki_wikilove_category_daily",
     "name": "Daily WikiLove posts by category",
     "shortName": "",
     "desc": "",
@@ -116,10 +116,10 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_wikilove_category",
+                            "source_id": "enwiki_wikilove_category_daily",
                             "source_col": "barnstars",
                             "xColumn": 0,
-                            "sourceId": "enwiki_wikilove_category",
+                            "sourceId": "enwiki_wikilove_category_daily",
                             "yColumn": "barnstars",
                             "type": "Number"
                         },
@@ -133,10 +133,10 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_wikilove_category",
+                            "source_id": "enwiki_wikilove_category_daily",
                             "source_col": "food",
                             "xColumn": 0,
-                            "sourceId": "enwiki_wikilove_category",
+                            "sourceId": "enwiki_wikilove_category_daily",
                             "yColumn": "food",
                             "type": "Number"
                         },
@@ -150,10 +150,10 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_wikilove_category",
+                            "source_id": "enwiki_wikilove_category_daily",
                             "source_col": "kittens",
                             "xColumn": 0,
-                            "sourceId": "enwiki_wikilove_category",
+                            "sourceId": "enwiki_wikilove_category_daily",
                             "yColumn": "kittens",
                             "type": "Number"
                         },
@@ -167,10 +167,10 @@
                         "nodeType": "line",
                         "disabled": false,
                         "metric": {
-                            "source_id": "enwiki_wikilove_category",
+                            "source_id": "enwiki_wikilove_category_daily",
                             "source_col": "customs",
                             "xColumn": 0,
-                            "sourceId": "enwiki_wikilove_category",
+                            "sourceId": "enwiki_wikilove_category_daily",
                             "yColumn": "customs",
                             "type": "Number"
                         },
@@ -195,5 +195,5 @@
             "padding": 0.1
         }
     },
-    "id": "enwiki_wikilove_category"
+    "id": "enwiki_wikilove_category_daily"
 }
