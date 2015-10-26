@@ -9,22 +9,22 @@
             [
                 "enwiki_echo_all",
                 "enwiki_echo_all_cum",
-		"enwiki_echo_category",
-		"enwiki_echo_category_perc",
-		"enwiki_echo_category_cum",
-		"enwiki_echo_views_by_category",
-		"enwiki_echo_clicks_by_category",
-		"enwiki_echo_views_by_source",
-		"enwiki_echo_clicks_by_source",
-		"enwiki_echo_views_by_user_type",
-		"enwiki_echo_clicks_by_user_type",
-		"enwiki_echo_user",
-		"enwiki_echo_preferences_diff_badge",
-		"enwiki_echo_preferences_diff_web",
-		"enwiki_echo_preferences_diff_email",
-		"enwiki_echo_preferences_diff_email_frequency"
+                "enwiki_echo_category",
+                "enwiki_echo_category_perc",
+                "enwiki_echo_category_cum",
+                "enwiki_echo_views_by_category",
+                "enwiki_echo_clicks_by_category",
+                "enwiki_echo_views_by_source",
+                "enwiki_echo_clicks_by_source",
+                "enwiki_echo_views_by_user_type",
+                "enwiki_echo_clicks_by_user_type",
+                "enwiki_echo_user",
+                "enwiki_echo_preferences_diff_badge",
+                "enwiki_echo_preferences_diff_web",
+                "enwiki_echo_preferences_diff_email",
+                "enwiki_echo_preferences_diff_email_frequency"
             ]
-        },
+       },
        {
             "name": "Article feedback",
             "graph_ids": 
@@ -35,7 +35,7 @@
                 "enwiki_aft5_daily_by_usertype",
                 "enwiki_aft5_daily_by_usertype_perc"
             ]
-        },
+       },
        {
             "name": "Article feedback moderation",
             "graph_ids": 
@@ -65,7 +65,7 @@
                 "enwiki_pc_logging_users_actions_daily_comp_perc"
             ]
         },
-		{
+        {
             "name": "WikiLove",
             "graph_ids": 
             [
