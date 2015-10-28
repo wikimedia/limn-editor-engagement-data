@@ -1,0 +1,34 @@
+{
+    "slug": "enwiki_echo_monthly_production_and_consumption_of_notifications",
+    "format": "tsv",
+    "type": "timeseries",
+    "url": "http://datasets.wikimedia.org/limn-public-data/ee/datasets/echo_monthly_production_and_consumption_of_notifications/enwiki.tsv",
+    "name": "[enwiki] Monthly production and consumption of notifications",
+    "shortName": "enwiki_echo_monthly_production_and_consumption_of_notifications",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "date",
+            "label": "date",
+            "type": "Date",
+            "index": 0,
+            "metricDefs": []
+        },
+        {
+            "id": "notifications_sent",
+            "label": "Notifications sent",
+            "type": "Number",
+            "index": 1,
+            "metricDefs": []
+        },
+        {
+            "id": "notifications_read",
+            "label": "Notifications read",
+            "type": "Number",
+            "index": 2,
+            "metricDefs": []
+        }
+    ],
+    "id": "enwiki_echo_monthly_production_and_consumption_of_notifications"
+}

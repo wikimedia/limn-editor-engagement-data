@@ -1,0 +1,62 @@
+{
+  "slug": "enwiki_echo_distribution_of_response_time",
+  "format": "tsv",
+  "type": "timeseries",
+  "url": "http://datasets.wikimedia.org/limn-public-data/ee/datasets/echo_distribution_of_response_time/enwiki.tsv",
+  "name": "[enwiki] Distribution of response time",
+  "shortName": "enwiki_echo_distribution_of_response_time",
+  "desc": "",
+  "notes": "",
+  "columns": [
+    {
+      "id": "date",
+      "label": "date",
+      "type": "Date",
+      "index": 0,
+      "metricDefs": []
+    },
+    {
+      "id": "0_to_2",
+      "label": "Under 2 days",
+      "type": "Number",
+      "index": 1,
+      "metricDefs": []
+    },
+    {
+      "id": "2_to_5",
+      "label": "2-5 days",
+      "type": "Number",
+      "index": 2,
+      "metricDefs": []
+    },
+    {
+      "id": "5_to_10",
+      "label": "5-10 days",
+      "type": "Number",
+      "index": 3,
+      "metricDefs": []
+    },
+    {
+      "id": "10_to_20",
+      "label": "10-20 days",
+      "type": "Number",
+      "index": 4,
+      "metricDefs": []
+    },
+    {
+      "id": "20_to_30",
+      "label": "20-30 days",
+      "type": "Number",
+      "index": 5,
+      "metricDefs": []
+    },
+    {
+      "id": "30_plus",
+      "label": "Unread after 30 days",
+      "type": "Number",
+      "index": 6,
+      "metricDefs": []
+    }
+  ],
+  "id": "enwiki_echo_distribution_of_response_time"
+}
