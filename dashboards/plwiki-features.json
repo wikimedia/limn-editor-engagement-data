@@ -9,10 +9,13 @@
             [
                 "plwiki_echo_all",
                 "plwiki_echo_all_cum",
-		"plwiki_echo_category",
-		"plwiki_echo_category_perc",
-		"plwiki_echo_category_cum",
-		"plwiki_echo_user"
+                "plwiki_echo_category",
+                "plwiki_echo_category_perc",
+                "plwiki_echo_category_cum",
+                "plwiki_echo_user",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/plwiki.tsv?name=Monthly production and consumption of notifications",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_unread_notifications/plwiki.tsv?name=Distribution of unread notifications",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_response_time/plwiki.tsv?name=Distribution of response time"
             ]
         }
     ]

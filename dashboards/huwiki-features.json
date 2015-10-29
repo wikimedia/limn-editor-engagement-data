@@ -9,10 +9,13 @@
             [
                 "huwiki_echo_all",
                 "huwiki_echo_all_cum",
-		"huwiki_echo_category",
-		"huwiki_echo_category_perc",
-		"huwiki_echo_category_cum",
-		"huwiki_echo_user"
+                "huwiki_echo_category",
+                "huwiki_echo_category_perc",
+                "huwiki_echo_category_cum",
+                "huwiki_echo_user",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/huwiki.tsv?name=Monthly production and consumption of notifications",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_unread_notifications/huwiki.tsv?name=Distribution of unread notifications",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_response_time/huwiki.tsv?name=Distribution of response time"
             ]
         }
     ]
