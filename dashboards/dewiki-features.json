@@ -12,7 +12,10 @@
                 "dewiki_echo_category",
                 "dewiki_echo_category_perc",
                 "dewiki_echo_category_cum",
-                "dewiki_echo_user"
+                "dewiki_echo_user",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/dewiki.tsv",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_unread_notifications/dewiki.tsv",
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_response_time/dewiki.tsv"
             ]
         },
        {
