@@ -2,7 +2,7 @@
     "slug": "ruwiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/ruwiki/registrations/reg_daily.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/ruwiki/registrations/reg_daily.csv",
     "name": "[ruwiki] New account registrations",
     "shortName": "ruwiki_daily_reg",
     "desc": "",

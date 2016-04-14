@@ -2,7 +2,7 @@
     "slug": "ptwikibooks_ve_hourly_perc",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/ptwikibooks/revtags/ve_hourly_perc.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/ptwikibooks/revtags/ve_hourly_perc.csv",
     "name": "[ptwikibooks] Hourly edits, visual editor vs wikitext (%)",
     "shortName": "ptwikibooks_ve_hourly_perc",
     "desc": "",

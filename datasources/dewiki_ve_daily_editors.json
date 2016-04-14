@@ -2,7 +2,7 @@
     "slug": "dewiki_ve_daily_editors",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/dewiki/revtags/ve_daily_editors.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/dewiki/revtags/ve_daily_editors.csv",
     "name": "[dewiki] Daily unique main-namespace editors",
     "shortName": "dewiki_ve_daily_editors",
     "desc": "",

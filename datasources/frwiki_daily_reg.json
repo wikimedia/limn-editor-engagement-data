@@ -2,7 +2,7 @@
     "slug": "frwiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/frwiki/registrations/reg_daily.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/frwiki/registrations/reg_daily.csv",
     "name": "[frwiki] New account registrations",
     "shortName": "frwiki_daily_reg",
     "desc": "",
