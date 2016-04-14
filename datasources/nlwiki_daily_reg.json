@@ -2,7 +2,7 @@
     "slug": "nlwiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/nlwiki/registrations/reg_daily.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/nlwiki/registrations/reg_daily.csv",
     "name": "[nlwiki] New account registrations",
     "shortName": "nlwiki_daily_reg",
     "desc": "",

@@ -2,7 +2,7 @@
     "slug": "eswiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/eswiki/registrations/reg_daily.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/eswiki/registrations/reg_daily.csv",
     "name": "[eswiki] New account registrations",
     "shortName": "eswiki_daily_reg",
     "desc": "",

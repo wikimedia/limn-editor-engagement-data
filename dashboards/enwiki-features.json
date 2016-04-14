@@ -23,8 +23,8 @@
                 "enwiki_echo_preferences_diff_web",
                 "enwiki_echo_preferences_diff_email",
                 "enwiki_echo_preferences_diff_email_frequency",
-                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/enwiki.tsv?name=Monthly production and consumption of notifications",
-                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/days_to_read/enwiki.tsv?name=Notifications by days taken to read"
+                "https://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/enwiki.tsv?name=Monthly production and consumption of notifications",
+                "https://datasets.wikimedia.org/limn-public-data/metrics/echo/days_to_read/enwiki.tsv?name=Notifications by days taken to read"
             ]
        },
        {

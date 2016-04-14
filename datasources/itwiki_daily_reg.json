@@ -2,7 +2,7 @@
     "slug": "itwiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/itwiki/registrations/reg_daily.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/itwiki/registrations/reg_daily.csv",
     "name": "[itwiki] New account registrations",
     "shortName": "itwiki_daily_reg",
     "desc": "",

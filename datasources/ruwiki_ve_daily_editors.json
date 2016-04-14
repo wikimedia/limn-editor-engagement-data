@@ -2,7 +2,7 @@
     "slug": "ruwiki_ve_daily_editors",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/ruwiki/revtags/ve_daily_editors.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/ruwiki/revtags/ve_daily_editors.csv",
     "name": "[ruwiki] Daily unique main-namespace editors",
     "shortName": "ruwiki_ve_daily_editors",
     "desc": "",

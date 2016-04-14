@@ -2,7 +2,7 @@
     "slug": "enwiki_drafts_daily",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/enwiki/drafts/daily_drafts.tsv",
+    "url": "https://datasets.wikimedia.org/public-datasets/enwiki/drafts/daily_drafts.tsv",
     "name": "enwiki_drafts_daily",
     "shortName": "[enwiki] Daily draft log",
     "desc": "",

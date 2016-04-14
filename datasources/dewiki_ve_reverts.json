@@ -2,7 +2,7 @@
     "slug": "dewiki_ve_reverts",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/dewiki/ve/reverts.tsv",
+    "url": "https://datasets.wikimedia.org/public-datasets/dewiki/ve/reverts.tsv",
     "name": "[dewiki] Reverted edits by reverting agent type",
     "shortName": "dewiki_ve_reverts",
     "desc": "",

@@ -2,7 +2,7 @@
     "slug": "itwiki_ve_reverts",
     "format": "tsv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/itwiki/ve/reverts.tsv",
+    "url": "https://datasets.wikimedia.org/public-datasets/itwiki/ve/reverts.tsv",
     "name": "[itwiki] Reverted edits by reverting agent type",
     "shortName": "itwiki_ve_reverts",
     "desc": "",

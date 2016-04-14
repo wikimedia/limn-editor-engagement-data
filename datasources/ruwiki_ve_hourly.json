@@ -2,7 +2,7 @@
     "slug": "ruwiki_ve_hourly",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/ruwiki/revtags/ve_hourly.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/ruwiki/revtags/ve_hourly.csv",
     "name": "[ruwiki] Hourly edits, visual editor vs wikitext",
     "shortName": "ruwiki_ve_hourly",
     "desc": "",

@@ -2,7 +2,7 @@
     "slug": "plwiki_daily_reg",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/plwiki/registrations/reg_daily.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/plwiki/registrations/reg_daily.csv",
     "name": "[plwiki] New account registrations",
     "shortName": "plwiki_daily_reg",
     "desc": "",

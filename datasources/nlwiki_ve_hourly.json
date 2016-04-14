@@ -2,7 +2,7 @@
     "slug": "nlwiki_ve_hourly",
     "format": "csv",
     "type": "timeseries",
-    "url": "http://datasets.wikimedia.org/public-datasets/nlwiki/revtags/ve_hourly.csv",
+    "url": "https://datasets.wikimedia.org/public-datasets/nlwiki/revtags/ve_hourly.csv",
     "name": "[nlwiki] Hourly edits, visual editor vs wikitext",
     "shortName": "nlwiki_ve_hourly",
     "desc": "",
