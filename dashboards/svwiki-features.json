@@ -5,7 +5,7 @@
     "tabs": [
         {
             "name": "Notifications",
-            "graph_ids": 
+            "graph_ids":
             [
                 "svwiki_echo_all",
                 "svwiki_echo_all_cum",
@@ -14,8 +14,7 @@
                 "svwiki_echo_category_cum",
                 "svwiki_echo_user",
                 "http://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/svwiki.tsv?name=Monthly production and consumption of notifications",
-                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_unread_notifications/svwiki.tsv?name=Distribution of unread notifications",
-                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_response_time/svwiki.tsv?name=Distribution of response time"
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/days_to_read/svwiki.tsv?name=Notifications by days taken to read"
             ]
         }
     ]

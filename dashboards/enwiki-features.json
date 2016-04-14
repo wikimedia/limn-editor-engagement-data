@@ -5,7 +5,7 @@
     "tabs": [
         {
             "name": "Notifications",
-            "graph_ids": 
+            "graph_ids":
             [
                 "enwiki_echo_all",
                 "enwiki_echo_all_cum",
@@ -24,13 +24,12 @@
                 "enwiki_echo_preferences_diff_email",
                 "enwiki_echo_preferences_diff_email_frequency",
                 "http://datasets.wikimedia.org/limn-public-data/metrics/echo/monthly_production_and_consumption_of_notifications/enwiki.tsv?name=Monthly production and consumption of notifications",
-                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_unread_notifications/enwiki.tsv?name=Distribution of unread notifications",
-                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/distribution_of_response_time/enwiki.tsv?name=Distribution of response time"
+                "http://datasets.wikimedia.org/limn-public-data/metrics/echo/days_to_read/enwiki.tsv?name=Notifications by days taken to read"
             ]
        },
        {
             "name": "Article feedback",
-            "graph_ids": 
+            "graph_ids":
             [
                 "enwiki_aft5_daily",
                 "enwiki_aft5_cum",
@@ -41,7 +40,7 @@
        },
        {
             "name": "Article feedback moderation",
-            "graph_ids": 
+            "graph_ids":
             [
                 "enwiki_fp_logging",
                 "enwiki_fp_logging_perc",
@@ -55,7 +54,7 @@
         },
         {
             "name": "Page curation",
-            "graph_ids": 
+            "graph_ids":
             [
                 "enwiki_pc_logging_actions_daily",
                 "enwiki_pc_logging_actions_daily_perc",
@@ -70,7 +69,7 @@
         },
         {
             "name": "WikiLove",
-            "graph_ids": 
+            "graph_ids":
             [
                 "enwiki_wikilove_category_monthly"
             ]
